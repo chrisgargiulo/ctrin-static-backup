@@ -1,0 +1,1 @@
+jQuery(document).ready(function(){jQuery(".ctrin-dropdownmenu ul li").bind("click",function(){jQuery(this).toggleClass("dropdownopen")}),jQuery(".ctrin-dropdownmenu ul li ul li a").bind("click",function(){jQuery(".ctrin-dropdownmenu ul li").removeClass("dropdownopen")})});

@@ -1,0 +1,1051 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+	<meta charset="UTF-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<link rel="pingback" href="../xmlrpc.php.html" />
+
+	<script type="text/javascript">
+		document.documentElement.className = 'js';
+	</script>
+
+	<title>The University of Nevada, Reno | CTRIN</title>
+<link rel="preconnect" href="https://fonts.gstatic.com/"  /><style id="et-divi-open-sans-inline-css">/* Original: https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800&#038;subset=cyrillic,cyrillic-ext,greek,greek-ext,hebrew,latin,latin-ext,vietnamese&#038;display=swap *//* User Agent: Mozilla/5.0 (Unknown; Linux x86_64) AppleWebKit/538.1 (KHTML, like Gecko) Safari/538.1 Daum/4.1 */@font-face {font-family: 'Open Sans';font-style: italic;font-weight: 300;font-stretch: normal;font-display: swap;src: url(https://fonts.gstatic.com/s/opensans/v43/memQYaGs126MiZpBA-UFUIcVXSCEkx2cmqvXlWq8tWZ0Pw86hd0Rk5hkaVc.ttf) format('truetype');}@font-face {font-family: 'Open Sans';font-style: italic;font-weight: 400;font-stretch: normal;font-display: swap;src: url(https://fonts.gstatic.com/s/opensans/v43/memQYaGs126MiZpBA-UFUIcVXSCEkx2cmqvXlWq8tWZ0Pw86hd0Rk8ZkaVc.ttf) format('truetype');}@font-face {font-family: 'Open Sans';font-style: italic;font-weight: 600;font-stretch: normal;font-display: swap;src: url(https://fonts.gstatic.com/s/opensans/v43/memQYaGs126MiZpBA-UFUIcVXSCEkx2cmqvXlWq8tWZ0Pw86hd0RkxhjaVc.ttf) format('truetype');}@font-face {font-family: 'Open Sans';font-style: italic;font-weight: 700;font-stretch: normal;font-display: swap;src: url(https://fonts.gstatic.com/s/opensans/v43/memQYaGs126MiZpBA-UFUIcVXSCEkx2cmqvXlWq8tWZ0Pw86hd0RkyFjaVc.ttf) format('truetype');}@font-face {font-family: 'Open Sans';font-style: italic;font-weight: 800;font-stretch: normal;font-display: swap;src: url(https://fonts.gstatic.com/s/opensans/v43/memQYaGs126MiZpBA-UFUIcVXSCEkx2cmqvXlWq8tWZ0Pw86hd0Rk0ZjaVc.ttf) format('truetype');}@font-face {font-family: 'Open Sans';font-style: normal;font-weight: 300;font-stretch: normal;font-display: swap;src: url(https://fonts.gstatic.com/s/opensans/v43/memSYaGs126MiZpBA-UvWbX2vVnXBbObj2OVZyOOSr4dVJWUgsiH0C4n.ttf) format('truetype');}@font-face {font-family: 'Open Sans';font-style: normal;font-weight: 400;font-stretch: normal;font-display: swap;src: url(https://fonts.gstatic.com/s/opensans/v43/memSYaGs126MiZpBA-UvWbX2vVnXBbObj2OVZyOOSr4dVJWUgsjZ0C4n.ttf) format('truetype');}@font-face {font-family: 'Open Sans';font-style: normal;font-weight: 600;font-stretch: normal;font-display: swap;src: url(https://fonts.gstatic.com/s/opensans/v43/memSYaGs126MiZpBA-UvWbX2vVnXBbObj2OVZyOOSr4dVJWUgsgH1y4n.ttf) format('truetype');}@font-face {font-family: 'Open Sans';font-style: normal;font-weight: 700;font-stretch: normal;font-display: swap;src: url(https://fonts.gstatic.com/s/opensans/v43/memSYaGs126MiZpBA-UvWbX2vVnXBbObj2OVZyOOSr4dVJWUgsg-1y4n.ttf) format('truetype');}@font-face {font-family: 'Open Sans';font-style: normal;font-weight: 800;font-stretch: normal;font-display: swap;src: url(https://fonts.gstatic.com/s/opensans/v43/memSYaGs126MiZpBA-UvWbX2vVnXBbObj2OVZyOOSr4dVJWUgshZ1y4n.ttf) format('truetype');}/* User Agent: Mozilla/5.0 (Windows NT 6.1; WOW64; rv:27.0) Gecko/20100101 Firefox/27.0 */@font-face {font-family: 'Open Sans';font-style: italic;font-weight: 300;font-stretch: normal;font-display: swap;src: url(https://fonts.gstatic.com/s/opensans/v43/memQYaGs126MiZpBA-UFUIcVXSCEkx2cmqvXlWq8tWZ0Pw86hd0Rk5hkaVQ.woff) format('woff');}@font-face {font-family: 'Open Sans';font-style: italic;font-weight: 400;font-stretch: normal;font-display: swap;src: url(https://fonts.gstatic.com/s/opensans/v43/memQYaGs126MiZpBA-UFUIcVXSCEkx2cmqvXlWq8tWZ0Pw86hd0Rk8ZkaVQ.woff) format('woff');}@font-face {font-family: 'Open Sans';font-style: italic;font-weight: 600;font-stretch: normal;font-display: swap;src: url(https://fonts.gstatic.com/s/opensans/v43/memQYaGs126MiZpBA-UFUIcVXSCEkx2cmqvXlWq8tWZ0Pw86hd0RkxhjaVQ.woff) format('woff');}@font-face {font-family: 'Open Sans';font-style: italic;font-weight: 700;font-stretch: normal;font-display: swap;src: url(https://fonts.gstatic.com/s/opensans/v43/memQYaGs126MiZpBA-UFUIcVXSCEkx2cmqvXlWq8tWZ0Pw86hd0RkyFjaVQ.woff) format('woff');}@font-face {font-family: 'Open Sans';font-style: italic;font-weight: 800;font-stretch: normal;font-display: swap;src: url(https://fonts.gstatic.com/s/opensans/v43/memQYaGs126MiZpBA-UFUIcVXSCEkx2cmqvXlWq8tWZ0Pw86hd0Rk0ZjaVQ.woff) format('woff');}@font-face {font-family: 'Open Sans';font-style: normal;font-weight: 300;font-stretch: normal;font-display: swap;src: url(https://fonts.gstatic.com/s/opensans/v43/memSYaGs126MiZpBA-UvWbX2vVnXBbObj2OVZyOOSr4dVJWUgsiH0C4k.woff) format('woff');}@font-face {font-family: 'Open Sans';font-style: normal;font-weight: 400;font-stretch: normal;font-display: swap;src: url(https://fonts.gstatic.com/s/opensans/v43/memSYaGs126MiZpBA-UvWbX2vVnXBbObj2OVZyOOSr4dVJWUgsjZ0C4k.woff) format('woff');}@font-face {font-family: 'Open Sans';font-style: normal;font-weight: 600;font-stretch: normal;font-display: swap;src: url(https://fonts.gstatic.com/s/opensans/v43/memSYaGs126MiZpBA-UvWbX2vVnXBbObj2OVZyOOSr4dVJWUgsgH1y4k.woff) format('woff');}@font-face {font-family: 'Open Sans';font-style: normal;font-weight: 700;font-stretch: normal;font-display: swap;src: url(https://fonts.gstatic.com/s/opensans/v43/memSYaGs126MiZpBA-UvWbX2vVnXBbObj2OVZyOOSr4dVJWUgsg-1y4k.woff) format('woff');}@font-face {font-family: 'Open Sans';font-style: normal;font-weight: 800;font-stretch: normal;font-display: swap;src: url(https://fonts.gstatic.com/s/opensans/v43/memSYaGs126MiZpBA-UvWbX2vVnXBbObj2OVZyOOSr4dVJWUgshZ1y4k.woff) format('woff');}/* User Agent: Mozilla/5.0 (Windows NT 6.3; rv:39.0) Gecko/20100101 Firefox/39.0 */@font-face {font-family: 'Open Sans';font-style: italic;font-weight: 300;font-stretch: normal;font-display: swap;src: url(https://fonts.gstatic.com/s/opensans/v43/memQYaGs126MiZpBA-UFUIcVXSCEkx2cmqvXlWq8tWZ0Pw86hd0Rk5hkaVI.woff2) format('woff2');}@font-face {font-family: 'Open Sans';font-style: italic;font-weight: 400;font-stretch: normal;font-display: swap;src: url(https://fonts.gstatic.com/s/opensans/v43/memQYaGs126MiZpBA-UFUIcVXSCEkx2cmqvXlWq8tWZ0Pw86hd0Rk8ZkaVI.woff2) format('woff2');}@font-face {font-family: 'Open Sans';font-style: italic;font-weight: 600;font-stretch: normal;font-display: swap;src: url(https://fonts.gstatic.com/s/opensans/v43/memQYaGs126MiZpBA-UFUIcVXSCEkx2cmqvXlWq8tWZ0Pw86hd0RkxhjaVI.woff2) format('woff2');}@font-face {font-family: 'Open Sans';font-style: italic;font-weight: 700;font-stretch: normal;font-display: swap;src: url(https://fonts.gstatic.com/s/opensans/v43/memQYaGs126MiZpBA-UFUIcVXSCEkx2cmqvXlWq8tWZ0Pw86hd0RkyFjaVI.woff2) format('woff2');}@font-face {font-family: 'Open Sans';font-style: italic;font-weight: 800;font-stretch: normal;font-display: swap;src: url(https://fonts.gstatic.com/s/opensans/v43/memQYaGs126MiZpBA-UFUIcVXSCEkx2cmqvXlWq8tWZ0Pw86hd0Rk0ZjaVI.woff2) format('woff2');}@font-face {font-family: 'Open Sans';font-style: normal;font-weight: 300;font-stretch: normal;font-display: swap;src: url(https://fonts.gstatic.com/s/opensans/v43/memSYaGs126MiZpBA-UvWbX2vVnXBbObj2OVZyOOSr4dVJWUgsiH0C4i.woff2) format('woff2');}@font-face {font-family: 'Open Sans';font-style: normal;font-weight: 400;font-stretch: normal;font-display: swap;src: url(https://fonts.gstatic.com/s/opensans/v43/memSYaGs126MiZpBA-UvWbX2vVnXBbObj2OVZyOOSr4dVJWUgsjZ0C4i.woff2) format('woff2');}@font-face {font-family: 'Open Sans';font-style: normal;font-weight: 600;font-stretch: normal;font-display: swap;src: url(https://fonts.gstatic.com/s/opensans/v43/memSYaGs126MiZpBA-UvWbX2vVnXBbObj2OVZyOOSr4dVJWUgsgH1y4i.woff2) format('woff2');}@font-face {font-family: 'Open Sans';font-style: normal;font-weight: 700;font-stretch: normal;font-display: swap;src: url(https://fonts.gstatic.com/s/opensans/v43/memSYaGs126MiZpBA-UvWbX2vVnXBbObj2OVZyOOSr4dVJWUgsg-1y4i.woff2) format('woff2');}@font-face {font-family: 'Open Sans';font-style: normal;font-weight: 800;font-stretch: normal;font-display: swap;src: url(https://fonts.gstatic.com/s/opensans/v43/memSYaGs126MiZpBA-UvWbX2vVnXBbObj2OVZyOOSr4dVJWUgshZ1y4i.woff2) format('woff2');}</style><style id="et-builder-googlefonts-cached-inline">/* Original: https://fonts.googleapis.com/css?family=Alegreya+Sans:100,100italic,300,300italic,regular,italic,500,500italic,700,700italic,800,800italic,900,900italic&#038;subset=cyrillic,cyrillic-ext,greek,greek-ext,latin,latin-ext,vietnamese&#038;display=swap *//* User Agent: Mozilla/5.0 (Unknown; Linux x86_64) AppleWebKit/538.1 (KHTML, like Gecko) Safari/538.1 Daum/4.1 */@font-face {font-family: 'Alegreya Sans';font-style: italic;font-weight: 100;font-display: swap;src: url(https://fonts.gstatic.com/s/alegreyasans/v25/5aUv9_-1phKLFgshYDvh6Vwt7V9V3G1W.ttf) format('truetype');}@font-face {font-family: 'Alegreya Sans';font-style: italic;font-weight: 300;font-display: swap;src: url(https://fonts.gstatic.com/s/alegreyasans/v25/5aUo9_-1phKLFgshYDvh6Vwt7V9VFE92jg.ttf) format('truetype');}@font-face {font-family: 'Alegreya Sans';font-style: italic;font-weight: 400;font-display: swap;src: url(https://fonts.gstatic.com/s/alegreyasans/v25/5aUt9_-1phKLFgshYDvh6Vwt7V9tuA.ttf) format('truetype');}@font-face {font-family: 'Alegreya Sans';font-style: italic;font-weight: 500;font-display: swap;src: url(https://fonts.gstatic.com/s/alegreyasans/v25/5aUo9_-1phKLFgshYDvh6Vwt7V9VTE52jg.ttf) format('truetype');}@font-face {font-family: 'Alegreya Sans';font-style: italic;font-weight: 700;font-display: swap;src: url(https://fonts.gstatic.com/s/alegreyasans/v25/5aUo9_-1phKLFgshYDvh6Vwt7V9VBEh2jg.ttf) format('truetype');}@font-face {font-family: 'Alegreya Sans';font-style: italic;font-weight: 800;font-display: swap;src: url(https://fonts.gstatic.com/s/alegreyasans/v25/5aUo9_-1phKLFgshYDvh6Vwt7V9VGEt2jg.ttf) format('truetype');}@font-face {font-family: 'Alegreya Sans';font-style: italic;font-weight: 900;font-display: swap;src: url(https://fonts.gstatic.com/s/alegreyasans/v25/5aUo9_-1phKLFgshYDvh6Vwt7V9VPEp2jg.ttf) format('truetype');}@font-face {font-family: 'Alegreya Sans';font-style: normal;font-weight: 100;font-display: swap;src: url(https://fonts.gstatic.com/s/alegreyasans/v25/5aUt9_-1phKLFgshYDvh6Vwt5TltuA.ttf) format('truetype');}@font-face {font-family: 'Alegreya Sans';font-style: normal;font-weight: 300;font-display: swap;src: url(https://fonts.gstatic.com/s/alegreyasans/v25/5aUu9_-1phKLFgshYDvh6Vwt5fFPmE0.ttf) format('truetype');}@font-face {font-family: 'Alegreya Sans';font-style: normal;font-weight: 400;font-display: swap;src: url(https://fonts.gstatic.com/s/alegreyasans/v25/5aUz9_-1phKLFgshYDvh6Vwt3V0.ttf) format('truetype');}@font-face {font-family: 'Alegreya Sans';font-style: normal;font-weight: 500;font-display: swap;src: url(https://fonts.gstatic.com/s/alegreyasans/v25/5aUu9_-1phKLFgshYDvh6Vwt5alOmE0.ttf) format('truetype');}@font-face {font-family: 'Alegreya Sans';font-style: normal;font-weight: 700;font-display: swap;src: url(https://fonts.gstatic.com/s/alegreyasans/v25/5aUu9_-1phKLFgshYDvh6Vwt5eFImE0.ttf) format('truetype');}@font-face {font-family: 'Alegreya Sans';font-style: normal;font-weight: 800;font-display: swap;src: url(https://fonts.gstatic.com/s/alegreyasans/v25/5aUu9_-1phKLFgshYDvh6Vwt5f1LmE0.ttf) format('truetype');}@font-face {font-family: 'Alegreya Sans';font-style: normal;font-weight: 900;font-display: swap;src: url(https://fonts.gstatic.com/s/alegreyasans/v25/5aUu9_-1phKLFgshYDvh6Vwt5dlKmE0.ttf) format('truetype');}/* User Agent: Mozilla/5.0 (Windows NT 6.1; WOW64; rv:27.0) Gecko/20100101 Firefox/27.0 */@font-face {font-family: 'Alegreya Sans';font-style: italic;font-weight: 100;font-display: swap;src: url(https://fonts.gstatic.com/s/alegreyasans/v25/5aUv9_-1phKLFgshYDvh6Vwt7V9V3G1V.woff) format('woff');}@font-face {font-family: 'Alegreya Sans';font-style: italic;font-weight: 300;font-display: swap;src: url(https://fonts.gstatic.com/s/alegreyasans/v25/5aUo9_-1phKLFgshYDvh6Vwt7V9VFE92jQ.woff) format('woff');}@font-face {font-family: 'Alegreya Sans';font-style: italic;font-weight: 400;font-display: swap;src: url(https://fonts.gstatic.com/s/alegreyasans/v25/5aUt9_-1phKLFgshYDvh6Vwt7V9tuw.woff) format('woff');}@font-face {font-family: 'Alegreya Sans';font-style: italic;font-weight: 500;font-display: swap;src: url(https://fonts.gstatic.com/s/alegreyasans/v25/5aUo9_-1phKLFgshYDvh6Vwt7V9VTE52jQ.woff) format('woff');}@font-face {font-family: 'Alegreya Sans';font-style: italic;font-weight: 700;font-display: swap;src: url(https://fonts.gstatic.com/s/alegreyasans/v25/5aUo9_-1phKLFgshYDvh6Vwt7V9VBEh2jQ.woff) format('woff');}@font-face {font-family: 'Alegreya Sans';font-style: italic;font-weight: 800;font-display: swap;src: url(https://fonts.gstatic.com/s/alegreyasans/v25/5aUo9_-1phKLFgshYDvh6Vwt7V9VGEt2jQ.woff) format('woff');}@font-face {font-family: 'Alegreya Sans';font-style: italic;font-weight: 900;font-display: swap;src: url(https://fonts.gstatic.com/s/alegreyasans/v25/5aUo9_-1phKLFgshYDvh6Vwt7V9VPEp2jQ.woff) format('woff');}@font-face {font-family: 'Alegreya Sans';font-style: normal;font-weight: 100;font-display: swap;src: url(https://fonts.gstatic.com/s/alegreyasans/v25/5aUt9_-1phKLFgshYDvh6Vwt5Tltuw.woff) format('woff');}@font-face {font-family: 'Alegreya Sans';font-style: normal;font-weight: 300;font-display: swap;src: url(https://fonts.gstatic.com/s/alegreyasans/v25/5aUu9_-1phKLFgshYDvh6Vwt5fFPmE4.woff) format('woff');}@font-face {font-family: 'Alegreya Sans';font-style: normal;font-weight: 400;font-display: swap;src: url(https://fonts.gstatic.com/s/alegreyasans/v25/5aUz9_-1phKLFgshYDvh6Vwt3V4.woff) format('woff');}@font-face {font-family: 'Alegreya Sans';font-style: normal;font-weight: 500;font-display: swap;src: url(https://fonts.gstatic.com/s/alegreyasans/v25/5aUu9_-1phKLFgshYDvh6Vwt5alOmE4.woff) format('woff');}@font-face {font-family: 'Alegreya Sans';font-style: normal;font-weight: 700;font-display: swap;src: url(https://fonts.gstatic.com/s/alegreyasans/v25/5aUu9_-1phKLFgshYDvh6Vwt5eFImE4.woff) format('woff');}@font-face {font-family: 'Alegreya Sans';font-style: normal;font-weight: 800;font-display: swap;src: url(https://fonts.gstatic.com/s/alegreyasans/v25/5aUu9_-1phKLFgshYDvh6Vwt5f1LmE4.woff) format('woff');}@font-face {font-family: 'Alegreya Sans';font-style: normal;font-weight: 900;font-display: swap;src: url(https://fonts.gstatic.com/s/alegreyasans/v25/5aUu9_-1phKLFgshYDvh6Vwt5dlKmE4.woff) format('woff');}/* User Agent: Mozilla/5.0 (Windows NT 6.3; rv:39.0) Gecko/20100101 Firefox/39.0 */@font-face {font-family: 'Alegreya Sans';font-style: italic;font-weight: 100;font-display: swap;src: url(https://fonts.gstatic.com/s/alegreyasans/v25/5aUv9_-1phKLFgshYDvh6Vwt7V9V3G1T.woff2) format('woff2');}@font-face {font-family: 'Alegreya Sans';font-style: italic;font-weight: 300;font-display: swap;src: url(https://fonts.gstatic.com/s/alegreyasans/v25/5aUo9_-1phKLFgshYDvh6Vwt7V9VFE92iw.woff2) format('woff2');}@font-face {font-family: 'Alegreya Sans';font-style: italic;font-weight: 400;font-display: swap;src: url(https://fonts.gstatic.com/s/alegreyasans/v25/5aUt9_-1phKLFgshYDvh6Vwt7V9tvQ.woff2) format('woff2');}@font-face {font-family: 'Alegreya Sans';font-style: italic;font-weight: 500;font-display: swap;src: url(https://fonts.gstatic.com/s/alegreyasans/v25/5aUo9_-1phKLFgshYDvh6Vwt7V9VTE52iw.woff2) format('woff2');}@font-face {font-family: 'Alegreya Sans';font-style: italic;font-weight: 700;font-display: swap;src: url(https://fonts.gstatic.com/s/alegreyasans/v25/5aUo9_-1phKLFgshYDvh6Vwt7V9VBEh2iw.woff2) format('woff2');}@font-face {font-family: 'Alegreya Sans';font-style: italic;font-weight: 800;font-display: swap;src: url(https://fonts.gstatic.com/s/alegreyasans/v25/5aUo9_-1phKLFgshYDvh6Vwt7V9VGEt2iw.woff2) format('woff2');}@font-face {font-family: 'Alegreya Sans';font-style: italic;font-weight: 900;font-display: swap;src: url(https://fonts.gstatic.com/s/alegreyasans/v25/5aUo9_-1phKLFgshYDvh6Vwt7V9VPEp2iw.woff2) format('woff2');}@font-face {font-family: 'Alegreya Sans';font-style: normal;font-weight: 100;font-display: swap;src: url(https://fonts.gstatic.com/s/alegreyasans/v25/5aUt9_-1phKLFgshYDvh6Vwt5TltvQ.woff2) format('woff2');}@font-face {font-family: 'Alegreya Sans';font-style: normal;font-weight: 300;font-display: swap;src: url(https://fonts.gstatic.com/s/alegreyasans/v25/5aUu9_-1phKLFgshYDvh6Vwt5fFPmEg.woff2) format('woff2');}@font-face {font-family: 'Alegreya Sans';font-style: normal;font-weight: 400;font-display: swap;src: url(https://fonts.gstatic.com/s/alegreyasans/v25/5aUz9_-1phKLFgshYDvh6Vwt3Vg.woff2) format('woff2');}@font-face {font-family: 'Alegreya Sans';font-style: normal;font-weight: 500;font-display: swap;src: url(https://fonts.gstatic.com/s/alegreyasans/v25/5aUu9_-1phKLFgshYDvh6Vwt5alOmEg.woff2) format('woff2');}@font-face {font-family: 'Alegreya Sans';font-style: normal;font-weight: 700;font-display: swap;src: url(https://fonts.gstatic.com/s/alegreyasans/v25/5aUu9_-1phKLFgshYDvh6Vwt5eFImEg.woff2) format('woff2');}@font-face {font-family: 'Alegreya Sans';font-style: normal;font-weight: 800;font-display: swap;src: url(https://fonts.gstatic.com/s/alegreyasans/v25/5aUu9_-1phKLFgshYDvh6Vwt5f1LmEg.woff2) format('woff2');}@font-face {font-family: 'Alegreya Sans';font-style: normal;font-weight: 900;font-display: swap;src: url(https://fonts.gstatic.com/s/alegreyasans/v25/5aUu9_-1phKLFgshYDvh6Vwt5dlKmEg.woff2) format('woff2');}</style><meta name='robots' content='max-image-preview:large' />
+<script type="text/javascript">
+			let jqueryParams=[],jQuery=function(r){return jqueryParams=[...jqueryParams,r],jQuery},$=function(r){return jqueryParams=[...jqueryParams,r],$};window.jQuery=jQuery,window.$=jQuery;let customHeadScripts=!1;jQuery.fn=jQuery.prototype={},$.fn=jQuery.prototype={},jQuery.noConflict=function(r){if(window.jQuery)return jQuery=window.jQuery,$=window.jQuery,customHeadScripts=!0,jQuery.noConflict},jQuery.ready=function(r){jqueryParams=[...jqueryParams,r]},$.ready=function(r){jqueryParams=[...jqueryParams,r]},jQuery.load=function(r){jqueryParams=[...jqueryParams,r]},$.load=function(r){jqueryParams=[...jqueryParams,r]},jQuery.fn.ready=function(r){jqueryParams=[...jqueryParams,r]},$.fn.ready=function(r){jqueryParams=[...jqueryParams,r]};</script><link rel='dns-prefetch' href='../index.html' />
+<link rel='dns-prefetch' href='https://www.google.com/' />
+<link rel='dns-prefetch' href='https://use.fontawesome.com/' />
+<link rel="alternate" type="application/rss+xml" title="CTRIN &raquo; Feed" href="../feed/index.html" />
+		<!-- This site uses the Google Analytics by ExactMetrics plugin v8.3.1 - Using Analytics tracking - https://www.exactmetrics.com/ -->
+							
+			<script data-cfasync="false" data-wpfc-render="false" type="text/javascript">
+				var em_version = '8.3.1';
+				var em_track_user = true;
+				var em_no_track_reason = '';
+								var ExactMetricsDefaultLocations = {"page_location":"https:\/\/ctrin.unlv.edu\/the-university-of-nevada-reno\/"};
+				if ( typeof ExactMetricsPrivacyGuardFilter === 'function' ) {
+					var ExactMetricsLocations = (typeof ExactMetricsExcludeQuery === 'object') ? ExactMetricsPrivacyGuardFilter( ExactMetricsExcludeQuery ) : ExactMetricsPrivacyGuardFilter( ExactMetricsDefaultLocations );
+				} else {
+					var ExactMetricsLocations = (typeof ExactMetricsExcludeQuery === 'object') ? ExactMetricsExcludeQuery : ExactMetricsDefaultLocations;
+				}
+
+								var disableStrs = [
+										'ga-disable-G-GVZP3XWMKZ',
+									];
+
+				/* Function to detect opted out users */
+				function __gtagTrackerIsOptedOut() {
+					for (var index = 0; index < disableStrs.length; index++) {
+						if (document.cookie.indexOf(disableStrs[index] + '=true') > -1) {
+							return true;
+						}
+					}
+
+					return false;
+				}
+
+				/* Disable tracking if the opt-out cookie exists. */
+				if (__gtagTrackerIsOptedOut()) {
+					for (var index = 0; index < disableStrs.length; index++) {
+						window[disableStrs[index]] = true;
+					}
+				}
+
+				/* Opt-out function */
+				function __gtagTrackerOptout() {
+					for (var index = 0; index < disableStrs.length; index++) {
+						document.cookie = disableStrs[index] + '=true; expires=Thu, 31 Dec 2099 23:59:59 UTC; path=/';
+						window[disableStrs[index]] = true;
+					}
+				}
+
+				if ('undefined' === typeof gaOptout) {
+					function gaOptout() {
+						__gtagTrackerOptout();
+					}
+				}
+								window.dataLayer = window.dataLayer || [];
+
+				window.ExactMetricsDualTracker = {
+					helpers: {},
+					trackers: {},
+				};
+				if (em_track_user) {
+					function __gtagDataLayer() {
+						dataLayer.push(arguments);
+					}
+
+					function __gtagTracker(type, name, parameters) {
+						if (!parameters) {
+							parameters = {};
+						}
+
+						if (parameters.send_to) {
+							__gtagDataLayer.apply(null, arguments);
+							return;
+						}
+
+						if (type === 'event') {
+														parameters.send_to = exactmetrics_frontend.v4_id;
+							var hookName = name;
+							if (typeof parameters['event_category'] !== 'undefined') {
+								hookName = parameters['event_category'] + ':' + name;
+							}
+
+							if (typeof ExactMetricsDualTracker.trackers[hookName] !== 'undefined') {
+								ExactMetricsDualTracker.trackers[hookName](parameters);
+							} else {
+								__gtagDataLayer('event', name, parameters);
+							}
+							
+						} else {
+							__gtagDataLayer.apply(null, arguments);
+						}
+					}
+
+					__gtagTracker('js', new Date());
+					__gtagTracker('set', {
+						'developer_id.dNDMyYj': true,
+											});
+					if ( ExactMetricsLocations.page_location ) {
+						__gtagTracker('set', ExactMetricsLocations);
+					}
+										__gtagTracker('config', 'G-GVZP3XWMKZ', {"forceSSL":"true"} );
+															window.gtag = __gtagTracker;										(function () {
+						/* https://developers.google.com/analytics/devguides/collection/analyticsjs/ */
+						/* ga and __gaTracker compatibility shim. */
+						var noopfn = function () {
+							return null;
+						};
+						var newtracker = function () {
+							return new Tracker();
+						};
+						var Tracker = function () {
+							return null;
+						};
+						var p = Tracker.prototype;
+						p.get = noopfn;
+						p.set = noopfn;
+						p.send = function () {
+							var args = Array.prototype.slice.call(arguments);
+							args.unshift('send');
+							__gaTracker.apply(null, args);
+						};
+						var __gaTracker = function () {
+							var len = arguments.length;
+							if (len === 0) {
+								return;
+							}
+							var f = arguments[len - 1];
+							if (typeof f !== 'object' || f === null || typeof f.hitCallback !== 'function') {
+								if ('send' === arguments[0]) {
+									var hitConverted, hitObject = false, action;
+									if ('event' === arguments[1]) {
+										if ('undefined' !== typeof arguments[3]) {
+											hitObject = {
+												'eventAction': arguments[3],
+												'eventCategory': arguments[2],
+												'eventLabel': arguments[4],
+												'value': arguments[5] ? arguments[5] : 1,
+											}
+										}
+									}
+									if ('pageview' === arguments[1]) {
+										if ('undefined' !== typeof arguments[2]) {
+											hitObject = {
+												'eventAction': 'page_view',
+												'page_path': arguments[2],
+											}
+										}
+									}
+									if (typeof arguments[2] === 'object') {
+										hitObject = arguments[2];
+									}
+									if (typeof arguments[5] === 'object') {
+										Object.assign(hitObject, arguments[5]);
+									}
+									if ('undefined' !== typeof arguments[1].hitType) {
+										hitObject = arguments[1];
+										if ('pageview' === hitObject.hitType) {
+											hitObject.eventAction = 'page_view';
+										}
+									}
+									if (hitObject) {
+										action = 'timing' === arguments[1].hitType ? 'timing_complete' : hitObject.eventAction;
+										hitConverted = mapArgs(hitObject);
+										__gtagTracker('event', action, hitConverted);
+									}
+								}
+								return;
+							}
+
+							function mapArgs(args) {
+								var arg, hit = {};
+								var gaMap = {
+									'eventCategory': 'event_category',
+									'eventAction': 'event_action',
+									'eventLabel': 'event_label',
+									'eventValue': 'event_value',
+									'nonInteraction': 'non_interaction',
+									'timingCategory': 'event_category',
+									'timingVar': 'name',
+									'timingValue': 'value',
+									'timingLabel': 'event_label',
+									'page': 'page_path',
+									'location': 'page_location',
+									'title': 'page_title',
+									'referrer' : 'page_referrer',
+								};
+								for (arg in args) {
+																		if (!(!args.hasOwnProperty(arg) || !gaMap.hasOwnProperty(arg))) {
+										hit[gaMap[arg]] = args[arg];
+									} else {
+										hit[arg] = args[arg];
+									}
+								}
+								return hit;
+							}
+
+							try {
+								f.hitCallback();
+							} catch (ex) {
+							}
+						};
+						__gaTracker.create = newtracker;
+						__gaTracker.getByName = newtracker;
+						__gaTracker.getAll = function () {
+							return [];
+						};
+						__gaTracker.remove = noopfn;
+						__gaTracker.loaded = true;
+						window['__gaTracker'] = __gaTracker;
+					})();
+									} else {
+										console.log("");
+					(function () {
+						function __gtagTracker() {
+							return null;
+						}
+
+						window['__gtagTracker'] = __gtagTracker;
+						window['gtag'] = __gtagTracker;
+					})();
+									}
+			</script>
+				<!-- / Google Analytics by ExactMetrics -->
+		<meta content="Divi v.4.27.4" name="generator"/><style id='wp-block-library-theme-inline-css' type='text/css'>
+.wp-block-audio :where(figcaption){color:#555;font-size:13px;text-align:center}.is-dark-theme .wp-block-audio :where(figcaption){color:#ffffffa6}.wp-block-audio{margin:0 0 1em}.wp-block-code{border:1px solid #ccc;border-radius:4px;font-family:Menlo,Consolas,monaco,monospace;padding:.8em 1em}.wp-block-embed :where(figcaption){color:#555;font-size:13px;text-align:center}.is-dark-theme .wp-block-embed :where(figcaption){color:#ffffffa6}.wp-block-embed{margin:0 0 1em}.blocks-gallery-caption{color:#555;font-size:13px;text-align:center}.is-dark-theme .blocks-gallery-caption{color:#ffffffa6}:root :where(.wp-block-image figcaption){color:#555;font-size:13px;text-align:center}.is-dark-theme :root :where(.wp-block-image figcaption){color:#ffffffa6}.wp-block-image{margin:0 0 1em}.wp-block-pullquote{border-bottom:4px solid;border-top:4px solid;color:currentColor;margin-bottom:1.75em}.wp-block-pullquote cite,.wp-block-pullquote footer,.wp-block-pullquote__citation{color:currentColor;font-size:.8125em;font-style:normal;text-transform:uppercase}.wp-block-quote{border-left:.25em solid;margin:0 0 1.75em;padding-left:1em}.wp-block-quote cite,.wp-block-quote footer{color:currentColor;font-size:.8125em;font-style:normal;position:relative}.wp-block-quote:where(.has-text-align-right){border-left:none;border-right:.25em solid;padding-left:0;padding-right:1em}.wp-block-quote:where(.has-text-align-center){border:none;padding-left:0}.wp-block-quote.is-large,.wp-block-quote.is-style-large,.wp-block-quote:where(.is-style-plain){border:none}.wp-block-search .wp-block-search__label{font-weight:700}.wp-block-search__button{border:1px solid #ccc;padding:.375em .625em}:where(.wp-block-group.has-background){padding:1.25em 2.375em}.wp-block-separator.has-css-opacity{opacity:.4}.wp-block-separator{border:none;border-bottom:2px solid;margin-left:auto;margin-right:auto}.wp-block-separator.has-alpha-channel-opacity{opacity:1}.wp-block-separator:not(.is-style-wide):not(.is-style-dots){width:100px}.wp-block-separator.has-background:not(.is-style-dots){border-bottom:none;height:1px}.wp-block-separator.has-background:not(.is-style-wide):not(.is-style-dots){height:2px}.wp-block-table{margin:0 0 1em}.wp-block-table td,.wp-block-table th{word-break:normal}.wp-block-table :where(figcaption){color:#555;font-size:13px;text-align:center}.is-dark-theme .wp-block-table :where(figcaption){color:#ffffffa6}.wp-block-video :where(figcaption){color:#555;font-size:13px;text-align:center}.is-dark-theme .wp-block-video :where(figcaption){color:#ffffffa6}.wp-block-video{margin:0 0 1em}:root :where(.wp-block-template-part.has-background){margin-bottom:0;margin-top:0;padding:1.25em 2.375em}
+.menu li.et-hover>ul,.nav li.et-hover>ul{opacity:1!important;visibility:visible!important}.da11y-submenu-show{visibility:visible!important}
+.keyboard-outline{outline-style:solid!important;outline-width:2px!important;-webkit-transition:none!important;transition:none!important}a[role=tab].keyboard-outline,button:active.keyboard-outline,button:focus.keyboard-outline,input:active.keyboard-outline,input:focus.keyboard-outline{outline-offset:-5px}.et-search-form input:focus.keyboard-outline{padding-left:15px;padding-right:15px}.et_pb_tab{-webkit-animation:none!important;animation:none!important}.et_pb_scroll_top.et-visible:focus{outline-color:Highlight;outline-style:solid;outline-width:2px}@media (-webkit-min-device-pixel-ratio:0){.et_pb_scroll_top.et-visible:focus{outline-color:-webkit-focus-ring-color;outline-style:auto}}
+.et_pb_contact_form_label,.et_pb_search .screen-reader-text,.et_pb_social_media_follow_network_name,.widget_search .screen-reader-text{display:block!important}.da11y-screen-reader-text,.et_pb_contact_form_label,.et_pb_search .screen-reader-text,.et_pb_social_media_follow_network_name,.widget_search .screen-reader-text{clip:rect(1px,1px,1px,1px);-webkit-font-smoothing:subpixel-antialiased;font-family:-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif;font-size:1em;font-weight:600;height:1px;letter-spacing:normal;line-height:normal;overflow:hidden;position:absolute!important;text-shadow:none;text-transform:none;width:1px}.da11y-screen-reader-text:focus{clip:auto!important;background:#f1f1f1;-webkit-box-shadow:0 0 2px 2px rgba(0,0,0,.6);box-shadow:0 0 2px 2px rgba(0,0,0,.6);color:#00547a;display:block;height:auto;left:5px;padding:15px 23px 14px;text-decoration:none;top:7px;width:auto;z-index:1000000}
+</style>
+<style id='global-styles-inline-css' type='text/css'>
+:root{--wp--preset--aspect-ratio--square: 1;--wp--preset--aspect-ratio--4-3: 4/3;--wp--preset--aspect-ratio--3-4: 3/4;--wp--preset--aspect-ratio--3-2: 3/2;--wp--preset--aspect-ratio--2-3: 2/3;--wp--preset--aspect-ratio--16-9: 16/9;--wp--preset--aspect-ratio--9-16: 9/16;--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: #abb8c3;--wp--preset--color--white: #ffffff;--wp--preset--color--pale-pink: #f78da7;--wp--preset--color--vivid-red: #cf2e2e;--wp--preset--color--luminous-vivid-orange: #ff6900;--wp--preset--color--luminous-vivid-amber: #fcb900;--wp--preset--color--light-green-cyan: #7bdcb5;--wp--preset--color--vivid-green-cyan: #00d084;--wp--preset--color--pale-cyan-blue: #8ed1fc;--wp--preset--color--vivid-cyan-blue: #0693e3;--wp--preset--color--vivid-purple: #9b51e0;--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg,rgba(6,147,227,1) 0%,rgb(155,81,224) 100%);--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg,rgb(122,220,180) 0%,rgb(0,208,130) 100%);--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg,rgba(252,185,0,1) 0%,rgba(255,105,0,1) 100%);--wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg,rgba(255,105,0,1) 0%,rgb(207,46,46) 100%);--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg,rgb(238,238,238) 0%,rgb(169,184,195) 100%);--wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg,rgb(74,234,220) 0%,rgb(151,120,209) 20%,rgb(207,42,186) 40%,rgb(238,44,130) 60%,rgb(251,105,98) 80%,rgb(254,248,76) 100%);--wp--preset--gradient--blush-light-purple: linear-gradient(135deg,rgb(255,206,236) 0%,rgb(152,150,240) 100%);--wp--preset--gradient--blush-bordeaux: linear-gradient(135deg,rgb(254,205,165) 0%,rgb(254,45,45) 50%,rgb(107,0,62) 100%);--wp--preset--gradient--luminous-dusk: linear-gradient(135deg,rgb(255,203,112) 0%,rgb(199,81,192) 50%,rgb(65,88,208) 100%);--wp--preset--gradient--pale-ocean: linear-gradient(135deg,rgb(255,245,203) 0%,rgb(182,227,212) 50%,rgb(51,167,181) 100%);--wp--preset--gradient--electric-grass: linear-gradient(135deg,rgb(202,248,128) 0%,rgb(113,206,126) 100%);--wp--preset--gradient--midnight: linear-gradient(135deg,rgb(2,3,129) 0%,rgb(40,116,252) 100%);--wp--preset--font-size--small: 13px;--wp--preset--font-size--medium: 20px;--wp--preset--font-size--large: 36px;--wp--preset--font-size--x-large: 42px;--wp--preset--spacing--20: 0.44rem;--wp--preset--spacing--30: 0.67rem;--wp--preset--spacing--40: 1rem;--wp--preset--spacing--50: 1.5rem;--wp--preset--spacing--60: 2.25rem;--wp--preset--spacing--70: 3.38rem;--wp--preset--spacing--80: 5.06rem;--wp--preset--shadow--natural: 6px 6px 9px rgba(0, 0, 0, 0.2);--wp--preset--shadow--deep: 12px 12px 50px rgba(0, 0, 0, 0.4);--wp--preset--shadow--sharp: 6px 6px 0px rgba(0, 0, 0, 0.2);--wp--preset--shadow--outlined: 6px 6px 0px -3px rgba(255, 255, 255, 1), 6px 6px rgba(0, 0, 0, 1);--wp--preset--shadow--crisp: 6px 6px 0px rgba(0, 0, 0, 1);}:root { --wp--style--global--content-size: 823px;--wp--style--global--wide-size: 1080px; }:where(body) { margin: 0; }.wp-site-blocks > .alignleft { float: left; margin-right: 2em; }.wp-site-blocks > .alignright { float: right; margin-left: 2em; }.wp-site-blocks > .aligncenter { justify-content: center; margin-left: auto; margin-right: auto; }:where(.is-layout-flex){gap: 0.5em;}:where(.is-layout-grid){gap: 0.5em;}.is-layout-flow > .alignleft{float: left;margin-inline-start: 0;margin-inline-end: 2em;}.is-layout-flow > .alignright{float: right;margin-inline-start: 2em;margin-inline-end: 0;}.is-layout-flow > .aligncenter{margin-left: auto !important;margin-right: auto !important;}.is-layout-constrained > .alignleft{float: left;margin-inline-start: 0;margin-inline-end: 2em;}.is-layout-constrained > .alignright{float: right;margin-inline-start: 2em;margin-inline-end: 0;}.is-layout-constrained > .aligncenter{margin-left: auto !important;margin-right: auto !important;}.is-layout-constrained > :where(:not(.alignleft):not(.alignright):not(.alignfull)){max-width: var(--wp--style--global--content-size);margin-left: auto !important;margin-right: auto !important;}.is-layout-constrained > .alignwide{max-width: var(--wp--style--global--wide-size);}body .is-layout-flex{display: flex;}.is-layout-flex{flex-wrap: wrap;align-items: center;}.is-layout-flex > :is(*, div){margin: 0;}body .is-layout-grid{display: grid;}.is-layout-grid > :is(*, div){margin: 0;}body{padding-top: 0px;padding-right: 0px;padding-bottom: 0px;padding-left: 0px;}:root :where(.wp-element-button, .wp-block-button__link){background-color: #32373c;border-width: 0;color: #fff;font-family: inherit;font-size: inherit;line-height: inherit;padding: calc(0.667em + 2px) calc(1.333em + 2px);text-decoration: none;}.has-black-color{color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-color{color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-color{color: var(--wp--preset--color--white) !important;}.has-pale-pink-color{color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-color{color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-color{color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-color{color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-color{color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-color{color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-color{color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-color{color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-color{color: var(--wp--preset--color--vivid-purple) !important;}.has-black-background-color{background-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-background-color{background-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-background-color{background-color: var(--wp--preset--color--white) !important;}.has-pale-pink-background-color{background-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-background-color{background-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-background-color{background-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-background-color{background-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-background-color{background-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-background-color{background-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-background-color{background-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-background-color{background-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-background-color{background-color: var(--wp--preset--color--vivid-purple) !important;}.has-black-border-color{border-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-border-color{border-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-border-color{border-color: var(--wp--preset--color--white) !important;}.has-pale-pink-border-color{border-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-border-color{border-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-border-color{border-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-border-color{border-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-border-color{border-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-border-color{border-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-border-color{border-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-border-color{border-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-border-color{border-color: var(--wp--preset--color--vivid-purple) !important;}.has-vivid-cyan-blue-to-vivid-purple-gradient-background{background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;}.has-light-green-cyan-to-vivid-green-cyan-gradient-background{background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;}.has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;}.has-luminous-vivid-orange-to-vivid-red-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;}.has-very-light-gray-to-cyan-bluish-gray-gradient-background{background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;}.has-cool-to-warm-spectrum-gradient-background{background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important;}.has-blush-light-purple-gradient-background{background: var(--wp--preset--gradient--blush-light-purple) !important;}.has-blush-bordeaux-gradient-background{background: var(--wp--preset--gradient--blush-bordeaux) !important;}.has-luminous-dusk-gradient-background{background: var(--wp--preset--gradient--luminous-dusk) !important;}.has-pale-ocean-gradient-background{background: var(--wp--preset--gradient--pale-ocean) !important;}.has-electric-grass-gradient-background{background: var(--wp--preset--gradient--electric-grass) !important;}.has-midnight-gradient-background{background: var(--wp--preset--gradient--midnight) !important;}.has-small-font-size{font-size: var(--wp--preset--font-size--small) !important;}.has-medium-font-size{font-size: var(--wp--preset--font-size--medium) !important;}.has-large-font-size{font-size: var(--wp--preset--font-size--large) !important;}.has-x-large-font-size{font-size: var(--wp--preset--font-size--x-large) !important;}
+:where(.wp-block-post-template.is-layout-flex){gap: 1.25em;}:where(.wp-block-post-template.is-layout-grid){gap: 1.25em;}
+:where(.wp-block-columns.is-layout-flex){gap: 2em;}:where(.wp-block-columns.is-layout-grid){gap: 2em;}
+:root :where(.wp-block-pullquote){font-size: 1.5em;line-height: 1.6;}
+</style>
+<link rel='stylesheet' id='ctct_form_styles-css' href='../wp-content/plugins/constant-contact-forms/assets/css/style.f71b07265a.css' type='text/css' media='all' />
+<link rel='stylesheet' id='contact-form-7-css' href='../wp-content/plugins/contact-form-7/includes/css/styles.dc2437cdc4.css' type='text/css' media='all' />
+<link rel='stylesheet' id='wcjp-frontend.css-css' href='../wp-content/plugins/custom-css-js-php/assets/css/wcjp-frontend.d1c030326a.css' type='text/css' media='all' />
+<link rel='stylesheet' id='SFSImainCss-css' href='../wp-content/plugins/ultimate-social-media-icons/css/sfsi-style.76edf00a17.css' type='text/css' media='all' />
+<link rel='stylesheet' id='tablepress-default-css' href='../wp-content/plugins/tablepress/css/build/default.459ef2f2f2.css' type='text/css' media='all' />
+<link rel='stylesheet' id='bfa-font-awesome-css' href='https://use.fontawesome.com/releases/v5.15.4/css/all.css?ver=2.0.3' type='text/css' media='all' />
+<link rel='stylesheet' id='bfa-font-awesome-v4-shim-css' href='https://use.fontawesome.com/releases/v5.15.4/css/v4-shims.css?ver=2.0.3' type='text/css' media='all' />
+<style id='bfa-font-awesome-v4-shim-inline-css' type='text/css'>
+
+			@font-face {
+				font-family: 'FontAwesome';
+				src: url('https://use.fontawesome.com/releases/v5.15.4/webfonts/fa-brands-400.eot'),
+				url('https://use.fontawesome.com/releases/v5.15.4/webfonts/fa-brands-400.eot?#iefix') format('embedded-opentype'),
+				url('https://use.fontawesome.com/releases/v5.15.4/webfonts/fa-brands-400.woff2') format('woff2'),
+				url('https://use.fontawesome.com/releases/v5.15.4/webfonts/fa-brands-400.woff') format('woff'),
+				url('https://use.fontawesome.com/releases/v5.15.4/webfonts/fa-brands-400.ttf') format('truetype'),
+				url('https://use.fontawesome.com/releases/v5.15.4/webfonts/fa-brands-400.svg#fontawesome') format('svg');
+			}
+
+			@font-face {
+				font-family: 'FontAwesome';
+				src: url('https://use.fontawesome.com/releases/v5.15.4/webfonts/fa-solid-900.eot'),
+				url('https://use.fontawesome.com/releases/v5.15.4/webfonts/fa-solid-900.eot?#iefix') format('embedded-opentype'),
+				url('https://use.fontawesome.com/releases/v5.15.4/webfonts/fa-solid-900.woff2') format('woff2'),
+				url('https://use.fontawesome.com/releases/v5.15.4/webfonts/fa-solid-900.woff') format('woff'),
+				url('https://use.fontawesome.com/releases/v5.15.4/webfonts/fa-solid-900.ttf') format('truetype'),
+				url('https://use.fontawesome.com/releases/v5.15.4/webfonts/fa-solid-900.svg#fontawesome') format('svg');
+			}
+
+			@font-face {
+				font-family: 'FontAwesome';
+				src: url('https://use.fontawesome.com/releases/v5.15.4/webfonts/fa-regular-400.eot'),
+				url('https://use.fontawesome.com/releases/v5.15.4/webfonts/fa-regular-400.eot?#iefix') format('embedded-opentype'),
+				url('https://use.fontawesome.com/releases/v5.15.4/webfonts/fa-regular-400.woff2') format('woff2'),
+				url('https://use.fontawesome.com/releases/v5.15.4/webfonts/fa-regular-400.woff') format('woff'),
+				url('https://use.fontawesome.com/releases/v5.15.4/webfonts/fa-regular-400.ttf') format('truetype'),
+				url('https://use.fontawesome.com/releases/v5.15.4/webfonts/fa-regular-400.svg#fontawesome') format('svg');
+				unicode-range: U+F004-F005,U+F007,U+F017,U+F022,U+F024,U+F02E,U+F03E,U+F044,U+F057-F059,U+F06E,U+F070,U+F075,U+F07B-F07C,U+F080,U+F086,U+F089,U+F094,U+F09D,U+F0A0,U+F0A4-F0A7,U+F0C5,U+F0C7-F0C8,U+F0E0,U+F0EB,U+F0F3,U+F0F8,U+F0FE,U+F111,U+F118-F11A,U+F11C,U+F133,U+F144,U+F146,U+F14A,U+F14D-F14E,U+F150-F152,U+F15B-F15C,U+F164-F165,U+F185-F186,U+F191-F192,U+F1AD,U+F1C1-F1C9,U+F1CD,U+F1D8,U+F1E3,U+F1EA,U+F1F6,U+F1F9,U+F20A,U+F247-F249,U+F24D,U+F254-F25B,U+F25D,U+F267,U+F271-F274,U+F279,U+F28B,U+F28D,U+F2B5-F2B6,U+F2B9,U+F2BB,U+F2BD,U+F2C1-F2C2,U+F2D0,U+F2D2,U+F2DC,U+F2ED,U+F328,U+F358-F35B,U+F3A5,U+F3D1,U+F410,U+F4AD;
+			}
+		
+</style>
+<link rel='stylesheet' id='boxzilla-css' href='../wp-content/plugins/boxzilla/assets/css/styles.3d36ac7826.css' type='text/css' media='all' />
+<link rel='stylesheet' id='__EPYT__style-css' href='../wp-content/plugins/youtube-embed-plus/styles/ytprefs.min.0412cf6eb0.css' type='text/css' media='all' />
+<style id='__EPYT__style-inline-css' type='text/css'>
+
+                .epyt-gallery-thumb {
+                        width: 33.333%;
+                }
+                
+</style>
+<link rel='stylesheet' id='divi-style-css' href='../wp-content/themes/Divi/style-static.min.41c15d2ebd.css' type='text/css' media='all' />
+<script type="text/javascript" src="../wp-content/plugins/google-analytics-dashboard-for-wp/assets/js/frontend-gtag.min.ed846a2710.js" id="exactmetrics-frontend-script-js" async="async" data-wp-strategy="async"></script>
+<script data-cfasync="false" data-wpfc-render="false" type="text/javascript" id='exactmetrics-frontend-script-js-extra'>/* <![CDATA[ */
+var exactmetrics_frontend = {"js_events_tracking":"true","download_extensions":"zip,mp3,mpeg,pdf,docx,pptx,xlsx,rar","inbound_paths":"[{\"path\":\"\\\/go\\\/\",\"label\":\"affiliate\"},{\"path\":\"\\\/recommend\\\/\",\"label\":\"affiliate\"}]","home_url":"https:\/\/ctrin.unlv.edu","hash_tracking":"false","v4_id":"G-GVZP3XWMKZ"};/* ]]> */
+</script>
+<script type="text/javascript" src="../wp-includes/js/jquery/jquery.min.f43b551b74.js" id="jquery-core-js"></script>
+<script type="text/javascript" src="../wp-includes/js/jquery/jquery-migrate.min.558973c0fd.js" id="jquery-migrate-js"></script>
+<script type="text/javascript" id="jquery-js-after">
+/* <![CDATA[ */
+jqueryParams.length&&$.each(jqueryParams,function(e,r){if("function"==typeof r){var n=String(r);n.replace("$","jQuery");var a=new Function("return "+n)();$(document).ready(a)}});
+/* ]]> */
+</script>
+<script type="text/javascript" id="__ytprefs__-js-extra">
+/* <![CDATA[ */
+var _EPYT_ = {"ajaxurl":"https:\/\/ctrin.unlv.edu\/wp-admin\/admin-ajax.php","security":"5aff7ba8fa","gallery_scrolloffset":"20","eppathtoscripts":"https:\/\/ctrin.unlv.edu\/wp-content\/plugins\/youtube-embed-plus\/scripts\/","eppath":"https:\/\/ctrin.unlv.edu\/wp-content\/plugins\/youtube-embed-plus\/","epresponsiveselector":"[\"iframe.__youtube_prefs_widget__\"]","epdovol":"1","version":"14.2.1.3","evselector":"iframe.__youtube_prefs__[src], iframe[src*=\"youtube.com\/embed\/\"], iframe[src*=\"youtube-nocookie.com\/embed\/\"]","ajax_compat":"","maxres_facade":"eager","ytapi_load":"light","pause_others":"","stopMobileBuffer":"1","facade_mode":"","not_live_on_channel":"","vi_active":"","vi_js_posttypes":[]};
+/* ]]> */
+</script>
+<script type="text/javascript" src="../wp-content/plugins/youtube-embed-plus/scripts/ytprefs.min.0412cf6eb0.js" id="__ytprefs__-js"></script>
+<link rel="https://api.w.org/" href="../wp-json/index.html" /><link rel="alternate" title="JSON" type="application/json" href="../wp-json/wp/v2/pages/4117.html" /><link rel="EditURI" type="application/rsd+xml" title="RSD" href="../xmlrpc.0db0f93c62.php.html" />
+<meta name="generator" content="WordPress 6.7.2" />
+<link rel="canonical" href="../the-university-of-nevada-reno/index.html" />
+<link rel='shortlink' href='../index.03ce479357.html' />
+<link rel="alternate" title="oEmbed (JSON)" type="application/json+oembed" href="../wp-json/oembed/1.0_/embed.1771dc3a69.edu" />
+<link rel="alternate" title="oEmbed (XML)" type="text/xml+oembed" href="/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fctrin.unlv.edu%2Fthe-university-of-nevada-reno%2F&#038;format=xml" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="follow.it-verification-code-eUR4YUV0NXlGZFlPNFdRY2xPUW9ZUXlBT3phYi9JRGN4d3NMaldveVRTOFhFT1JJeGdCbmRqQ3FKa0dtYTVhZVN2c1N4dWZ0ZVhja1RSZlRXSDRHTW5mSVRYR0srcG9JYWZ6MVJ5UnV5L2RwQXh0Z3RhU1Y4SERib2RHQU85bmd8TWR1MjFDUURLN0RyTXJrYmxrLzFzK2Z5SHlTTjdlRDg4TzlCQXhkR0VROD0=" content="SSmVP5llBDWgFCeF90Gc"/><script>(()=>{var o=[],i={};["on","off","toggle","show"].forEach((l=>{i[l]=function(){o.push([l,arguments])}})),window.Boxzilla=i,window.boxzilla_queue=o})();</script><meta name="google-site-verification" content="_HqJLLcAaRkxyt38KiUeTRBrfsHl4Kc68h1vhIKNKe4"><link rel="icon" href="../wp-content/uploads/MW-CTR-IN-Logo-2018-150x150.jpg" sizes="32x32" />
+<link rel="icon" href="../wp-content/uploads/MW-CTR-IN-Logo-2018-e1571255339768.jpg" sizes="192x192" />
+<link rel="apple-touch-icon" href="../wp-content/uploads/MW-CTR-IN-Logo-2018-e1571255339768.jpg" />
+<meta name="msapplication-TileImage" content="https://ctrin.unlv.edu/wp-content/uploads/MW-CTR-IN-Logo-2018-e1571255339768.jpg" />
+<style id="et-divi-customizer-global-cached-inline-styles">body,.et_pb_column_1_2 .et_quote_content blockquote cite,.et_pb_column_1_2 .et_link_content a.et_link_main_url,.et_pb_column_1_3 .et_quote_content blockquote cite,.et_pb_column_3_8 .et_quote_content blockquote cite,.et_pb_column_1_4 .et_quote_content blockquote cite,.et_pb_blog_grid .et_quote_content blockquote cite,.et_pb_column_1_3 .et_link_content a.et_link_main_url,.et_pb_column_3_8 .et_link_content a.et_link_main_url,.et_pb_column_1_4 .et_link_content a.et_link_main_url,.et_pb_blog_grid .et_link_content a.et_link_main_url,body .et_pb_bg_layout_light .et_pb_post p,body .et_pb_bg_layout_dark .et_pb_post p{font-size:16px}.et_pb_slide_content,.et_pb_best_value{font-size:18px}body{line-height:1.5em}.container,.et_pb_row,.et_pb_slider .et_pb_container,.et_pb_fullwidth_section .et_pb_title_container,.et_pb_fullwidth_section .et_pb_title_featured_container,.et_pb_fullwidth_header:not(.et_pb_fullscreen) .et_pb_fullwidth_header_container{max-width:1264px}.et_boxed_layout #page-container,.et_boxed_layout.et_non_fixed_nav.et_transparent_nav #page-container #top-header,.et_boxed_layout.et_non_fixed_nav.et_transparent_nav #page-container #main-header,.et_fixed_nav.et_boxed_layout #page-container #top-header,.et_fixed_nav.et_boxed_layout #page-container #main-header,.et_boxed_layout #page-container .container,.et_boxed_layout #page-container .et_pb_row{max-width:1424px}a{color:#065589}.et_secondary_nav_enabled #page-container #top-header{background-color:#004466!important}#et-secondary-nav li ul{background-color:#004466}#footer-widgets .footer-widget li:before{top:10.6px}h1,h2,h3,h4,h5,h6,.et_quote_content blockquote p,.et_pb_slide_description .et_pb_slide_title{font-weight:bold;font-style:normal;text-transform:none;text-decoration:none;line-height:1.3em}@media only screen and (min-width:981px){.et_fixed_nav #page-container .et-fixed-header#top-header{background-color:#004466!important}.et_fixed_nav #page-container .et-fixed-header#top-header #et-secondary-nav li ul{background-color:#004466}}@media only screen and (min-width:1580px){.et_pb_row{padding:31px 0}.et_pb_section{padding:63px 0}.single.et_pb_pagebuilder_layout.et_full_width_page .et_post_meta_wrapper{padding-top:94px}.et_pb_fullwidth_section{padding:0}}@media only screen and (max-width:767px){body,.et_pb_column_1_2 .et_quote_content blockquote cite,.et_pb_column_1_2 .et_link_content a.et_link_main_url,.et_pb_column_1_3 .et_quote_content blockquote cite,.et_pb_column_3_8 .et_quote_content blockquote cite,.et_pb_column_1_4 .et_quote_content blockquote cite,.et_pb_blog_grid .et_quote_content blockquote cite,.et_pb_column_1_3 .et_link_content a.et_link_main_url,.et_pb_column_3_8 .et_link_content a.et_link_main_url,.et_pb_column_1_4 .et_link_content a.et_link_main_url,.et_pb_blog_grid .et_link_content a.et_link_main_url{font-size:13px}.et_pb_slider.et_pb_module .et_pb_slides .et_pb_slide_content,.et_pb_best_value{font-size:14px}h1{font-size:26px}h2,.product .related h2,.et_pb_column_1_2 .et_quote_content blockquote p{font-size:22px}h3{font-size:18px}h4,.et_pb_circle_counter h3,.et_pb_number_counter h3,.et_pb_column_1_3 .et_pb_post h2,.et_pb_column_1_4 .et_pb_post h2,.et_pb_blog_grid h2,.et_pb_column_1_3 .et_quote_content blockquote p,.et_pb_column_3_8 .et_quote_content blockquote p,.et_pb_column_1_4 .et_quote_content blockquote p,.et_pb_blog_grid .et_quote_content blockquote p,.et_pb_column_1_3 .et_link_content h2,.et_pb_column_3_8 .et_link_content h2,.et_pb_column_1_4 .et_link_content h2,.et_pb_blog_grid .et_link_content h2,.et_pb_column_1_3 .et_audio_content h2,.et_pb_column_3_8 .et_audio_content h2,.et_pb_column_1_4 .et_audio_content h2,.et_pb_blog_grid .et_audio_content h2,.et_pb_column_3_8 .et_pb_audio_module_content h2,.et_pb_column_1_3 .et_pb_audio_module_content h2,.et_pb_gallery_grid .et_pb_gallery_item h3,.et_pb_portfolio_grid .et_pb_portfolio_item h2,.et_pb_filterable_portfolio_grid .et_pb_portfolio_item h2{font-size:15px}.et_pb_slider.et_pb_module .et_pb_slides .et_pb_slide_description .et_pb_slide_title{font-size:39px}.et_pb_gallery_grid .et_pb_gallery_item h3,.et_pb_portfolio_grid .et_pb_portfolio_item h2,.et_pb_filterable_portfolio_grid .et_pb_portfolio_item h2,.et_pb_column_1_4 .et_pb_audio_module_content h2{font-size:13px}h5{font-size:13px}h6{font-size:12px}.et_pb_section{padding:45px 0}.et_pb_section.et_pb_fullwidth_section{padding:0}.et_pb_row,.et_pb_column .et_pb_row_inner{padding:81px 0}}	h1,h2,h3,h4,h5,h6{font-family:'Alegreya Sans',Helvetica,Arial,Lucida,sans-serif}body #page-container #sidebar{width:25%}body #page-container #left-area{width:75%}.et_right_sidebar #main-content .container:before{right:25%!important}.et_left_sidebar #main-content .container:before{left:25%!important}.et_pb_column{z-index:auto}.mdlbutton{background-color:#2ea3f2;border:none;color:white;border-radius:3px;padding:.5em 1em;text-align:center;text-decoration:none;text-transform:uppercase;letter-spacing:1px;display:inline-block;font-size:.9em;margin:4px 2px 20px;cursor:pointer}a:focus-visible{outline:4px solid #238E5A}.et_header_style_left #top-menu-nav{margin-left:0!important}.et_header_style_left #et-top-navigation{display:flex}body:not(.et-tb) #main-content .container{padding-top:0}.utility-nav-icon_external-link a::after,#et-secondary-nav a::after{display:inline-block;content:"";width:1em;height:1em;margin:0 .5em;background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' fill='white' viewBox='0 0 16 16'%3E%3Cpath fill-rule='evenodd' d='M8.636 3.5a.5.5 0 0 0-.5-.5H1.5A1.5 1.5 0 0 0 0 4.5v10A1.5 1.5 0 0 0 1.5 16h10a1.5 1.5 0 0 0 1.5-1.5V7.864a.5.5 0 0 0-1 0V14.5a.5.5 0 0 1-.5.5h-10a.5.5 0 0 1-.5-.5v-10a.5.5 0 0 1 .5-.5h6.636a.5.5 0 0 0 .5-.5z'/%3E%3Cpath fill-rule='evenodd' d='M16 .5a.5.5 0 0 0-.5-.5h-5a.5.5 0 0 0 0 1h3.793L6.146 9.146a.5.5 0 1 0 .708.708L15 1.707V5.5a.5.5 0 0 0 1 0v-5z'/%3E%3C/svg%3E");background-position:center;background-repeat:no-repeat;background-size:contain}#et-secondary-nav .menu-item-12041 a::after{display:none}@media screen and (max-width:980px){#page-container{padding-top:0px!important}#top-header{position:static!important;display:block!important}#top-header .container{padding-top:0.75em!important}#page-container #main-header{position:relative!important;top:0!important}#top-header #et-secondary-menu,#top-header #et-secondary-nav{display:block!important}#top-header #et-secondary-nav li{text-align:center!important}#et-main-area{padding-top:1px}}a.external-link::after,.external-links a::after{display:inline-block;content:"";width:1em;height:1em;margin:0 .5em;background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' fill='grey' viewBox='0 0 16 16'%3E%3Cpath fill-rule='evenodd' d='M8.636 3.5a.5.5 0 0 0-.5-.5H1.5A1.5 1.5 0 0 0 0 4.5v10A1.5 1.5 0 0 0 1.5 16h10a1.5 1.5 0 0 0 1.5-1.5V7.864a.5.5 0 0 0-1 0V14.5a.5.5 0 0 1-.5.5h-10a.5.5 0 0 1-.5-.5v-10a.5.5 0 0 1 .5-.5h6.636a.5.5 0 0 0 .5-.5z'/%3E%3Cpath fill-rule='evenodd' d='M16 .5a.5.5 0 0 0-.5-.5h-5a.5.5 0 0 0 0 1h3.793L6.146 9.146a.5.5 0 1 0 .708.708L15 1.707V5.5a.5.5 0 0 0 1 0v-5z'/%3E%3C/svg%3E");background-position:center;background-repeat:no-repeat;background-size:contain}.entry-content ol,.entry-content ul{padding-left:1.5em;;list-style-position:outside}.error404 #main-content,.search-results #main-content,.search-no-results #main-content{padding-top:3em}.post-template-default #main-content{overflow-x:hidden}input[type="text"].ctct-text,input[type="email"].ctct-email{margin-bottom:1em;padding:0.5em}.ctct-form-wrapper .ctct-form-field{margin:1em 0;padding-bottom:0}.ctct-disclosure hr{display:none}.ctct-form ::placeholder{color:#aaa}.post-template-default .category-featured-awardee .et_post_meta_wrapper img{display:none}</style><style type="text/css">
+@import url("../wp-content/uploads/style-ctrin-v2.css");
+</style><script>var _SiteOneUrlDepth = 2;</script></head>
+<body class="page-template-default page page-id-4117 sfsi_actvite_theme_cute ctct-Divi et_pb_button_helper_class et_fullwidth_nav et_fullwidth_secondary_nav et_non_fixed_nav et_show_nav et_secondary_nav_enabled et_secondary_nav_only_menu et_primary_nav_dropdown_animation_fade et_secondary_nav_dropdown_animation_fade et_header_style_left et_pb_footer_columns3 et_cover_background windows et_pb_gutters3 et_pb_pagebuilder_layout et_no_sidebar et_divi_theme et-db">
+	<div id="page-container">
+
+					<div id="top-header">
+			<div class="container clearfix">
+
+			
+				<div id="et-secondary-menu">
+				<ul id="et-secondary-nav" class="menu"><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-12041"><a href="../quick-links/index.html">Quick Links</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-10129"><a href="https://prod.mwctrin-portal.com/login">MW CTR-IN Portal</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-10130"><a href="https://www.ctrnet.org/">IDeA CTR Network</a></li>
+</ul>				</div>
+
+			</div>
+		</div>
+		
+	
+			<header id="main-header" data-height-onload="66">
+			<div class="container clearfix et_menu_container">
+							<div class="logo_container">
+					<span class="logo_helper"></span>
+					<a href="../index.html">
+						<img src="https://live-mwctrin.pantheonsite.io/wp-content/uploads/ctrin-sitelogo.png" width="620" height="192" alt="CTRIN" id="logo" data-height-percentage="54" />
+					</a>
+				</div>
+							<div id="et-top-navigation" data-height="66" data-fixed-height="40">
+											<nav id="top-menu-nav">
+						<ul id="top-menu" class="nav"><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-5032"><a href="../about/index.html">About</a>
+<ul class="sub-menu">
+	<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-4935"><a href="../index.bece6e13e8.html#mission">Our Mission</a></li>
+	<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-4936"><a href="../index.bece6e13e8.html#partners">Our Partners</a></li>
+	<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-4938"><a href="../index.bece6e13e8.html#leadership">Leadership</a></li>
+	<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-4937"><a href="../index.bece6e13e8.html#core">Cores</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-10960"><a href="../ctr-in-organizational-structure/index.html">MW CTR-IN Organizational Structure</a></li>
+</ul>
+</li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-10119"><a href="../funding-opportunities/index.html">Funding Opportunities</a>
+<ul class="sub-menu">
+	<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-12466"><a href="../wp-content/uploads/1.-Year-12-2024-2025-Pilot-Project-Grant-FOA-10.9.20231.pdf">Single Investigator Pilot Project Grant</a></li>
+	<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-12467"><a href="../wp-content/uploads/3.-Year-12-2024-2025-MSPP-FOA-10.9.2023-1.pdf">Multi-Site Pilot Project Grant</a></li>
+	<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-12468"><a href="../wp-content/uploads/2.-Year-12-2024-2025-CERP-Grant-FOA-10.9.2023-1-1-1.pdf">Community Engaged Research Pilot Grant</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-10371"><a href="../pilot-grants-awarded-2/index.html">Pilot Grant Awardees</a>
+	<ul class="sub-menu">
+		<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-12998"><a href="../pilot-grants-awarded/index.html#h_20232024">2023 &#8211; 2024</a></li>
+		<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-11144"><a href="../pilot-grants-awarded/index.html#h_202220232022202320222023">2022 &#8211; 2023</a></li>
+		<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-10639"><a href="../pilot-grants-awarded/index.html#h_30583728911661993272267">2021 – 2022</a></li>
+		<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-10640"><a href="../pilot-grants-awarded/index.html#h_65727068641661997354338">2020 – 2021</a></li>
+		<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-10641"><a href="../pilot-grants-awarded/index.html#h_465699252241661997151773">2019 – 2020</a></li>
+		<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-7811"><a href="../pilot-grants-awarded/index.html#h_612898339161661997095307">2018 – 2019</a></li>
+		<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-7810"><a href="../pilot-grants-awarded/index.html#h_891675049111661997055990">2017 – 2018</a></li>
+		<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-7809"><a href="../pilot-grants-awarded/index.html#h_56082175271661997011593">2016 – 2017</a></li>
+		<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-7808"><a href="../pilot-grants-awarded/index.html#h_505051447251661993936777">2015 – 2016</a></li>
+		<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-7807"><a href="../pilot-grants-awarded/index.html#h_30331712891661993722678">2014 &#8211; 2015</a></li>
+		<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-7806"><a href="../pilot-grants-awarded/index.html#h_358798564211661993494846">2013 &#8211; 2014</a></li>
+	</ul>
+</li>
+</ul>
+</li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-5030"><a href="../grant-resources/index.html">Resources</a>
+<ul class="sub-menu">
+	<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-4931"><a href="../index.65f779a12b.html#overview">Overview of Resources</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-9402"><a href="../concierge-network/index.html">Find Local Concierge Support</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-9410"><a href="../biostatistician-support/index.html">Find Biostatistics, Bioinformatics, &#038; Epidemiology Support</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-9424"><a href="../ceo-cab/index.html">Find Community Collaboration Support</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-9308"><a href="../pd-core/index.html">Find Professional Development Support</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-9345"><a href="../ceo-resource-library/index.html">Community Engagement &#038; Outreach Electronic Resource Library</a></li>
+	<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-10369"><a href="https://prod.mwctrin-portal.com/login">MW CTR-IN Portal</a></li>
+	<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-10370"><a href="https://www.ctrnet.org/">IDeA CTR Network</a></li>
+</ul>
+</li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-9955"><a href="../events/index.html">News &#038; Events</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5028"><a href="../contact/index.html">Contact</a></li>
+</ul>						</nav>
+					
+					
+					
+											<div id="et_top_search">
+							<span id="et_search_icon"></span>
+						</div>
+					
+					<div id="et_mobile_nav_menu">
+				<div class="mobile_nav closed">
+					<span class="select_page">Select Page</span>
+					<span class="mobile_menu_bar mobile_menu_bar_toggle"></span>
+				</div>
+			</div>				</div> <!-- #et-top-navigation -->
+			</div> <!-- .container -->
+						<div class="et_search_outer">
+				<div class="container et_search_form_container">
+					<form role="search" method="get" class="et-search-form" action="https://ctrin.unlv.edu/">
+					<input type="search" class="et-search-field" placeholder="Search &hellip;" value="" name="s" title="Search for:" />					</form>
+					<span class="et_close_search_field"></span>
+				</div>
+			</div>
+					</header> <!-- #main-header -->
+			<div id="et-main-area">
+	
+<div id="main-content">
+
+
+			
+				<article id="post-4117" class="post-4117 page type-page status-publish hentry">
+
+				
+					<div class="entry-content">
+					<div class="et-l et-l--post">
+			<div class="et_builder_inner_content et_pb_gutters3">
+		<div class="et_pb_section et_pb_section_0 et_pb_with_background et_pb_fullwidth_section et_section_regular" >
+				
+				
+				
+				
+				
+				
+				<div class="et_pb_module et_pb_fullwidth_post_title_0 et_pb_post_title  et_pb_text_align_center et_pb_bg_layout_dark et_pb_image_below"   >
+				
+				
+				
+				
+				
+				<div class="et_pb_title_container">
+					<h1 class="entry-title">The University of Nevada, Reno</h1>
+				</div>
+				
+			</div>
+				
+				
+			</div><div class="et_pb_section et_pb_section_1 et_section_regular" >
+				
+				
+				
+				
+				
+				
+				<div class="et_pb_row et_pb_row_0">
+				<div class="et_pb_column et_pb_column_4_4 et_pb_column_0  et_pb_css_mix_blend_mode_passthrough et-last-child">
+				
+				
+				
+				
+				<div class="et_pb_module et_pb_image et_pb_image_0 et_animated et-waypoint">
+				
+				
+				
+				
+				<span class="et_pb_image_wrap "><img decoding="async" src="../wp-content/uploads/unr.jpg" alt="" title="" /></span>
+			</div><div class="et_pb_module et_pb_text et_pb_text_0  et_pb_text_align_center et_pb_bg_layout_light">
+				
+				
+				
+				
+				<div class="et_pb_text_inner"><h2><a href="http://www.unr.edu/">The University of Nevada, Reno</a></h2></div>
+			</div><div class="et_pb_module et_pb_text et_pb_text_1  et_pb_text_align_left et_pb_bg_layout_light">
+				
+				
+				
+				
+				<div class="et_pb_text_inner"><p>Founded in 1874, the University of Nevada Reno (UNR) is a tier 1 university classified by the Carnegie Classification of Institutions of Higher Education as a public research university with “high research activity”. As the sole land grant institution for the state of Nevada, UNR’s campus serves a diverse student population of 21,353 students, with 3,162 comprising of graduate level students, and a total faculty of 1,230 members. UNR offers over 145 academic programs for undergraduate and graduate students which include the following clinical and translational research related centers and schools: the Division of Health Sciences in the Schools of Community Health Sciences, the Orvis School of Nursing, the Sanford Center for Aging, and the School of Medicine (SOM). Clinical and translational research topics range from diabetes / obesity, health effects of volcanic air pollution &amp; atomic testing, tobacco usage &amp; second hand smoke (especially in casinos), cancer, colon cancer screening, detection of myocardial ischemia, cardiovascular risk factors, quality issues in acute care hospitals, and trauma. To date, UNR’s SOM currently holds nearly $60 million in multi-year, National Institutes of Health (NIH) research grants for studies into the causes and treatments for diseases including muscular dystrophy, gastrointestinal disorders, HIV, fertility, cancer, infectious diseases, and battlefield injuries. The basic science departments boast two of three (and collaborate in the third) Center of Biomedical Research Excellence (COBRE) grants, the only IDeA Network of Biomedical Research Excellence grant.</p></div>
+			</div>
+			</div>
+				
+				
+				
+				
+			</div>
+				
+				
+			</div><div id="contact" class="et_pb_section et_pb_section_3 et_pb_with_background et_section_regular" >
+				
+				
+				
+				
+				
+				
+				<div class="et_pb_row et_pb_row_1 text-align-center section-center">
+				<div class="et_pb_column et_pb_column_4_4 et_pb_column_1  et_pb_css_mix_blend_mode_passthrough et-last-child">
+				
+				
+				
+				
+				<div class="et_pb_with_border et_pb_module et_pb_blurb et_pb_blurb_0 section-head  et_pb_text_align_center  et_pb_blurb_position_top et_pb_bg_layout_dark">
+				
+				
+				
+				
+				<div class="et_pb_blurb_content">
+					
+					<div class="et_pb_blurb_container">
+						
+						<div class="et_pb_blurb_description"><p class="mw-icon-wrapper"><i class="fa fa-envelope-o fa-2x"></i><span class="alt-text">Envelope Icon</span></p>
+<h4>Contact Us</h4></div>
+					</div>
+				</div>
+			</div><div class="et_pb_module et_pb_text et_pb_text_2  et_pb_text_align_center et_pb_bg_layout_dark">
+				
+				
+				
+				
+				<div class="et_pb_text_inner"><p>To contact the MW CTR-IN Administrative Core by phone, you may call (702) 895-1079 between 8:30am to 5:30pm, Monday - Friday, excluding holidays. Or, you may email us at ctr-in@unlv.edu at any time.</p></div>
+			</div><div class="et_pb_button_module_wrapper et_pb_button_0_wrapper  et_pb_module ">
+				<a class="et_pb_button et_pb_button_0 et_hover_enabled et_pb_bg_layout_dark" href="tel:1-702-895-1079">Call Us</a>
+			</div><div class="et_pb_button_module_wrapper et_pb_button_1_wrapper  et_pb_module ">
+				<a class="et_pb_button et_pb_button_1 et_hover_enabled et_pb_bg_layout_dark" href="mailto:ctr-in@unlv.edu">Email Us</a>
+			</div><div class="et_pb_button_module_wrapper et_pb_button_2_wrapper  et_pb_module ">
+				<a class="et_pb_button et_pb_button_2 et_hover_enabled et_pb_bg_layout_dark" href="../index.c98cc99d60.html">More Contact Info</a>
+			</div>
+			</div>
+				
+				
+				
+				
+			</div>
+				
+				
+			</div><div id="sitemap" class="et_pb_section et_pb_section_5 et_section_regular" >
+				
+				
+				
+				
+				
+				
+				<div class="et_pb_row et_pb_row_2 ctrin-sitemap et_pb_gutters1">
+				<div class="et_pb_column et_pb_column_1_4 et_pb_column_2  et_pb_css_mix_blend_mode_passthrough">
+				
+				
+				
+				
+				<div class="et_pb_with_border et_pb_module et_pb_text et_pb_text_3  et_pb_text_align_center et_pb_bg_layout_dark">
+				
+				
+				
+				
+				<div class="et_pb_text_inner"><ul class="main-site-map-list">
+<li><a>Main Pages</a>
+<ul>
+<li><a href="../index.html">MW CTR-IN Home Page</a></li>
+</ul>
+<div><div class="menu-main-container"><ul id="menu-main" class="menu"><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-5032"><a href="../about/index.html">About</a>
+<ul class="sub-menu">
+	<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-4935"><a href="../index.bece6e13e8.html#mission">Our Mission</a></li>
+	<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-4936"><a href="../index.bece6e13e8.html#partners">Our Partners</a></li>
+	<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-4938"><a href="../index.bece6e13e8.html#leadership">Leadership</a></li>
+	<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-4937"><a href="../index.bece6e13e8.html#core">Cores</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-10960"><a href="../ctr-in-organizational-structure/index.html">MW CTR-IN Organizational Structure</a></li>
+</ul>
+</li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-10119"><a href="../funding-opportunities/index.html">Funding Opportunities</a>
+<ul class="sub-menu">
+	<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-12466"><a href="../wp-content/uploads/1.-Year-12-2024-2025-Pilot-Project-Grant-FOA-10.9.20231.pdf">Single Investigator Pilot Project Grant</a></li>
+	<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-12467"><a href="../wp-content/uploads/3.-Year-12-2024-2025-MSPP-FOA-10.9.2023-1.pdf">Multi-Site Pilot Project Grant</a></li>
+	<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-12468"><a href="../wp-content/uploads/2.-Year-12-2024-2025-CERP-Grant-FOA-10.9.2023-1-1-1.pdf">Community Engaged Research Pilot Grant</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-10371"><a href="../pilot-grants-awarded-2/index.html">Pilot Grant Awardees</a>
+	<ul class="sub-menu">
+		<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-12998"><a href="../pilot-grants-awarded/index.html#h_20232024">2023 &#8211; 2024</a></li>
+		<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-11144"><a href="../pilot-grants-awarded/index.html#h_202220232022202320222023">2022 &#8211; 2023</a></li>
+		<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-10639"><a href="../pilot-grants-awarded/index.html#h_30583728911661993272267">2021 – 2022</a></li>
+		<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-10640"><a href="../pilot-grants-awarded/index.html#h_65727068641661997354338">2020 – 2021</a></li>
+		<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-10641"><a href="../pilot-grants-awarded/index.html#h_465699252241661997151773">2019 – 2020</a></li>
+		<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-7811"><a href="../pilot-grants-awarded/index.html#h_612898339161661997095307">2018 – 2019</a></li>
+		<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-7810"><a href="../pilot-grants-awarded/index.html#h_891675049111661997055990">2017 – 2018</a></li>
+		<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-7809"><a href="../pilot-grants-awarded/index.html#h_56082175271661997011593">2016 – 2017</a></li>
+		<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-7808"><a href="../pilot-grants-awarded/index.html#h_505051447251661993936777">2015 – 2016</a></li>
+		<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-7807"><a href="../pilot-grants-awarded/index.html#h_30331712891661993722678">2014 &#8211; 2015</a></li>
+		<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-7806"><a href="../pilot-grants-awarded/index.html#h_358798564211661993494846">2013 &#8211; 2014</a></li>
+	</ul>
+</li>
+</ul>
+</li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-5030"><a href="../grant-resources/index.html">Resources</a>
+<ul class="sub-menu">
+	<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-4931"><a href="../index.65f779a12b.html#overview">Overview of Resources</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-9402"><a href="../concierge-network/index.html">Find Local Concierge Support</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-9410"><a href="../biostatistician-support/index.html">Find Biostatistics, Bioinformatics, &#038; Epidemiology Support</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-9424"><a href="../ceo-cab/index.html">Find Community Collaboration Support</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-9308"><a href="../pd-core/index.html">Find Professional Development Support</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-9345"><a href="../ceo-resource-library/index.html">Community Engagement &#038; Outreach Electronic Resource Library</a></li>
+	<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-10369"><a href="https://prod.mwctrin-portal.com/login">MW CTR-IN Portal</a></li>
+	<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-10370"><a href="https://www.ctrnet.org/">IDeA CTR Network</a></li>
+</ul>
+</li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-9955"><a href="../events/index.html">News &#038; Events</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5028"><a href="../contact/index.html">Contact</a></li>
+</ul></div></div>
+</li>
+</ul></div>
+			</div>
+			</div><div class="et_pb_column et_pb_column_3_4 et_pb_column_3  et_pb_css_mix_blend_mode_passthrough et-last-child">
+				
+				
+				
+				
+				<div class="et_pb_with_border et_pb_module et_pb_text et_pb_text_4  et_pb_text_align_left et_pb_bg_layout_dark">
+				
+				
+				
+				
+				<div class="et_pb_text_inner"><div><div class="menu-sitemap-container"><ul id="menu-sitemap" class="menu"><li class="menu-item menu-item-type-custom menu-item-object-custom current-menu-ancestor menu-item-has-children menu-item-4915"><a href="../index.bece6e13e8.html#partners">Partners</a>
+<ul class="sub-menu">
+	<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-4916"><a>ALASKA</a>
+	<ul class="sub-menu">
+		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4953"><a href="../the-university-of-alaska-anchorage/index.html">The University of Alaska Anchorage</a></li>
+		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4954"><a href="../the-university-of-nevada-school-of-medicine-2/index.html">The University of Alaska, Fairbanks</a></li>
+	</ul>
+</li>
+	<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-4917"><a>MONTANA</a>
+	<ul class="sub-menu">
+		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4958"><a href="../montana-state-university/index.html">Montana State University</a></li>
+		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-13606"><a href="../the-university-of-montana/index.html">The University of Montana</a></li>
+	</ul>
+</li>
+	<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-13599"><a>IDAHO</a>
+	<ul class="sub-menu">
+		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-13600"><a href="../the-university-of-idaho/index.html">The University of Idaho</a></li>
+		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-13602"><a href="../idaho-state-university/index.html">Idaho State University</a></li>
+		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-13601"><a href="../boise-state-university/index.html">Boise State University</a></li>
+	</ul>
+</li>
+	<li class="menu-item menu-item-type-custom menu-item-object-custom current-menu-ancestor current-menu-parent menu-item-has-children menu-item-4919"><a>NEVADA</a>
+	<ul class="sub-menu">
+		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4973"><a href="../the-university-of-nevada-las-vegas/index.html">The University of Nevada, Las Vegas</a></li>
+		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-13576"><a href="../the-university-of-nevada-school-of-medicine/index.html">The University of Nevada School of Medicine</a></li>
+		<li class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-4117 current_page_item menu-item-4960"><a href="../the-university-of-nevada-reno/index.html" aria-current="page">The University of Nevada, Reno</a></li>
+	</ul>
+</li>
+	<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-4920"><a>NEW MEXICO</a>
+	<ul class="sub-menu">
+		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4961"><a href="../new-mexico-state-university/index.html">New Mexico State University</a></li>
+		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-13603"><a href="../the-university-of-new-mexico-health-sciences-center/index.html">The University of New Mexico –         Health Sciences Center</a></li>
+	</ul>
+</li>
+	<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-13607"><a>HAWAII</a>
+	<ul class="sub-menu">
+		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-13605"><a href="../the-university-of-hawaii-at-manoa/index.html">The University of Hawai’i at Manoa</a></li>
+	</ul>
+</li>
+	<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-13608"><a>WYOMING</a>
+	<ul class="sub-menu">
+		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-13604"><a href="../the-university-of-wyoming/index.html">The University of Wyoming</a></li>
+	</ul>
+</li>
+</ul>
+</li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-4923"><a href="../about/index.html#core">Cores</a>
+<ul class="sub-menu">
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-4969"><a href="../administrative-core/index.html">ADMINISTRATIVE CORE</a>
+	<ul class="sub-menu">
+		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4968"><a href="../ctr-in-organizational-structure/index.html">Organizational Structure</a></li>
+	</ul>
+</li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-10113"><a href="../tracking-evaluation-unit-teu/index.html">TRACKING &#038; EVALUATION (T&#038;E) CORE</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-4964"><a href="../pilot-projects-program-core/index.html">CLINICAL PILOT PROJECTS PROGRAM (CP3) CORE</a>
+	<ul class="sub-menu">
+		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4982"><a href="../faq-2/index.html">Pilot Grants FAQ</a></li>
+		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4971"><a href="../pilot-grants-awarded-2/index.html">Pilot Grants Awarded</a></li>
+	</ul>
+</li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-9309"><a href="../pd-core/index.html">PROFESSIONAL DEVELOPMENT (PD) CORE</a>
+	<ul class="sub-menu">
+		<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-9580"><a href="../pd-core-mentoring-program/index.html">Faculty Mentor Development Program</a></li>
+		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-9310"><a href="../advance-to-funding-atf-program/index.html">Advance To Funding (ATF) Program</a></li>
+		<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-7969"><a href="../gww-4/grant-writing-workshops/index.html">Grant Writing Workshops (GWW)</a></li>
+	</ul>
+</li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-4965"><a href="../berd-core/index.html">BIOSTATISTICS, EPIDEMIOLOGY, RESEARCH and DESIGN (BERD) CORE</a>
+	<ul class="sub-menu">
+		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-7426"><a href="../biostats-support-contact-list-2/index.html">CTR-IN Biostats Support Network</a></li>
+	</ul>
+</li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-10114"><a href="../community-engagement-outreach-ceo/index.html">COMMUNITY ENGAGEMENT &#038; OUTREACH (CEO) CORE</a>
+	<ul class="sub-menu">
+		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-9344"><a href="../ceo-resource-library/index.html">CEO Resource Library</a></li>
+	</ul>
+</li>
+</ul>
+</li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-5034"><a href="../grant-resources/index.html">Resources</a>
+<ul class="sub-menu">
+	<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-4942"><a href="../index.65f779a12b.html#overview">Overview of Resources</a></li>
+	<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-9229"><a href="https://prod.mwctrin-portal.com/login">MW CTR-IN Portal Log-In</a></li>
+	<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-4943"><a href="../index.65f779a12b.html#findaspecialist">Find a Local Concierge, <br>Mentor, or Collaborator</a></li>
+	<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-4944"><a href="../index.65f779a12b.html#biostats">Biostatistics Support</a></li>
+	<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-4945"><a href="../index.65f779a12b.html#training">Professional Development</a></li>
+</ul>
+</li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-13577"><a href="../events/index.html">News &#038; Events</a>
+<ul class="sub-menu">
+	<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-4925"><a>ANNUAL MEETINGS</a>
+	<ul class="sub-menu">
+		<li class="menu-item menu-item-type-post_type menu-item-object-post menu-item-12955"><a href="../2024-annual-meeting/index.html">2024 MW CTR-IN Annual Meeting</a></li>
+		<li class="menu-item menu-item-type-post_type menu-item-object-post menu-item-11657"><a href="../fall-2022-annual-meeting-of-the-mountain-west-ctr-in/index.html">Fall 2022 MW CTR-IN Annual Meeting</a></li>
+		<li class="menu-item menu-item-type-post_type menu-item-object-post menu-item-9956"><a href="../2022-virtual-annual-meeting-of-the-mountain-west-ctr-in-2/index.html">MW CTR-IN Virtual Annual Meeting</a></li>
+		<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-8133"><a href="../the-sixth-annual-meeting-of-the-mountain-west-ctr-in-program/index.html">The Sixth Annual Meeting of the MW CTR-IN Program</a></li>
+		<li class="menu-item menu-item-type-post_type menu-item-object-post menu-item-5201"><a href="../the-fourth-annual-meeting-of-the-mountain-west-ctr-in-3/index.html">The Fourth Annual Meeting of the Mountain West CTR-IN Program</a></li>
+	</ul>
+</li>
+</ul>
+</li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-10118"><a href="#">Other / Archived Links</a>
+<ul class="sub-menu">
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4986"><a href="../2016-17-health-disparities-pilot-grant-program/index.html">Health Disparities Pilot Grant Program</a></li>
+</ul>
+</li>
+</ul></div></div></div>
+			</div>
+			</div>
+				
+				
+				
+				
+			</div>
+				
+				
+			</div>		</div>
+	</div>
+						</div>
+
+				
+				</article>
+
+			
+
+</div>
+
+
+	<span class="et_pb_scroll_top et-pb-icon"></span>
+
+
+			<footer id="main-footer">
+				
+<div class="container">
+	<div id="footer-widgets" class="clearfix">
+		<div class="footer-widget"><div id="text-7" class="fwidget et_pb_widget widget_text">			<div class="textwidget"><a href="../index.html"><img src="../wp-content/uploads/ctrin-logo-stacked-dark.png" alt="MW CTR-IN Logo" style="max-width: 200px;" /></a></div>
+		</div></div><div class="footer-widget"><div id="text-8" class="fwidget et_pb_widget widget_text"><h4 class="title">Mountain West CTR-IN Program</h4>			<div class="textwidget">Funded by a grant from the National Institute of General Medical Sciences of the National Institutes of Health: #1U54GM104944</div>
+		</div><div id="text-11" class="fwidget et_pb_widget widget_text"><h4 class="title">UNLV &#8211; School of Public Health</h4>			<div class="textwidget">4700 S. Maryland Parkway
+Las Vegas, NV 89119</div>
+		</div></div><div class="footer-widget"><div id="text-9" class="fwidget et_pb_widget widget_text">			<div class="textwidget"><a href="http://unlv.edu/"><img src="../wp-content/uploads/unlv-logo.png" alt="UNLV Logo" style="max-width: 200px;" /></a></div>
+		</div></div>	</div>
+</div>
+
+
+		
+				<div id="et-footer-nav">
+					<div class="container">
+						<ul id="menu-main-1" class="bottom-nav"><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5032"><a href="../about/index.html">About</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-10119"><a href="../funding-opportunities/index.html">Funding Opportunities</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5030"><a href="../grant-resources/index.html">Resources</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-9955"><a href="../events/index.html">News &#038; Events</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5028"><a href="../contact/index.html">Contact</a></li>
+</ul>					</div>
+				</div>
+
+			
+				<div id="footer-bottom">
+					<div class="container clearfix">
+				<ul class="et-social-icons">
+
+
+</ul>					</div>
+				</div>
+			</footer>
+		</div>
+
+
+	</div>
+
+	<div style="display: none;"><div id="boxzilla-box-13273-content"><p>Dr. Lauren Lessard is the Associate Director of the Biostatistics, Epidemiology, Research &amp; Design (BERD) Core. She is an associate professor of Health Sciences and a maternal &amp; child epidemiologist at the Institute for Circumpolar Health Studies. She has extensive experience developing research protocol &amp; interventions addressing reproductive health disparities and inequities. Her current projects include a PCORI-funded comparative effectiveness study evaluating enhanced prenatal care systems, Project EMBRACE. Her previous projects focused on coordinating with practitioners &amp; patients to address key maternal health issues including maternal mental health; obesity &amp; contraception use; racial &amp; cultural humility in clinic settings; adolescent preconception health; and co-morbidities associated with preterm birth. She completed her PhD in Public Health at UCLA, MPH at UC Berkeley in Maternal &amp; Child Health, and Bachelor of Arts in Political &amp; Community Science at the University of California, Santa Cruz.</p>
+</div><div id="boxzilla-box-13241-content"><p>Andrea Bersamin, PhD is the Associate Director of the Community Engagement &amp; Outreach Core and also serves as a CEO Core Site Director. Shei is an associate professor in the Department of Biology and Wildlife and the Center for Alaska Native Health Research at UAF. Dr. Bersamin was a faculty pilot project awardee for 2018-2019. She earned her Ph.D. in nutrition at the University of California, Davis, and completed her postdoctoral training in cardiovascular disease prevention and epidemiology at the Stanford School of Medicine.</p>
+<p>Dr. Bersamin’s research focuses broadly on preventing nutrition-related health disparities among underserved, minority youth and their families. Specifically, she is interested in understanding how the social-ecological context of communities promotes or hinders health and health behaviors; designing and evaluating culturally grounded community-based interventions to prevent obesity and improve diet quality; and enhancing local food systems, particularly traditional food systems, to improve food security, and food sovereignty. Currently she is conducting a cluster randomized trial to prevent obesity among Head Start students in 12 Yup’ik communities in southwestern Alaska. She&#8217;s interested in understanding whether promoting plants and berries from the land through a subsistence life-style can help children meet the recommendations for vegetables and fruit.</p>
+</div><div id="boxzilla-box-13240-content"><p>Deborah Kuhls, MD, is the Associate Director for the Community Engagement &amp; Outreach Core. She is also a professor of surgery and chief, section of critical care in Kirk Kerkorian School of Medicine at UNLV’s Division of Acute Care Surgery, is a trauma surgeon who is board-certified in general surgery and critical care. She also is program director of the Kerkorian School of Medicine’s Surgical Critical Care Fellowship Program and medical director of University Medical Center’s Trauma Intensive Care Unit. She has a passion for teaching medical students, residents and fellows.</p>
+<p>Dr. Kuhls graduated from the Medical College of Pennsylvania (now Drexel University School of Medicine). She completed her general surgery residency at Albert Einstein University and a fellowship in critical care and trauma at the R Adams Cowley Shock Trauma Center at the University of Maryland. She subsequently completed Drexel University’s Executive Leadership in Academic Medicine fellowship.</p>
+<p>Dr. Kuhls’ research interests include injury prevention of all types, including vehicular crash, firearm and other violence-related injuries, as well as disaster management, medical education and the clinical care and outcomes of injured patients.</p>
+<p>Dr. Kuhls is the president of the Nevada Chapter of the American College of Surgeons, chair of the American College of Surgeons Committee on Trauma Injury Prevention and Control Committee, school of medicine’s representative to the Association of American Medical Colleges’ Group on Women in Medicine, and treasurer of the Clark County Medical Society.</p>
+</div><div id="boxzilla-box-13072-content"><p>Dr. Rebecca Palacios is the Associate Director for the Community Engagement &amp; Outreach (CEO) Core. She is a Health Psychologist and a professor in the Department of Public Health Sciences at New Mexico State University (NMSU). She has over 25 years of experience conducting community health research along the U.S./Mexico border, including needs assessments, program evaluation, health promotion and cancer education, and cultural adaptations of evidence-based programs for Hispanics. Her research in the past 7 years has focused on culturally tailoring cancer education for Latina mothers diagnosed with cancer. After assessing the needs and communication patterns of Hispanic mothers diagnosed with cancer and their school age children, her team culturally adapted an evidence-based cancer parenting education program which counsels child-rearing mothers with cancer on communication and parenting strategies. Dr. Palacios recently completed a randomized clinical trial testing the efficacy of the culturally adapted Conexiones program. With much of this clinical trial occurring during 2 years of the COVID-19 pandemic, Dr. Palacios’ team also assessed the impact of the pandemic on young Latina mothers diagnosed with cancer. More recently, Dr. Palacios is working to refine the Conexiones program for Latina mothers diagnosed with advanced cancer. She also collaborates on research examining the influence of masculine norms/attitudes on the health behaviors of Hispanic men living along the US-Mexico border. Dr. Palacios also&nbsp;serves as the NMSU Site Director for the MW CTR IN&#8217;s CEO Core and is also heavily involved in mentoring early-stage investigators in their pilot research projects. Dr. Palacios is the coordinator of the PhD program in Health Equity Sciences.</p>
+</div><div id="boxzilla-box-12660-content"><p>Judith Owens-Manley, Ph.D has been working directly with Community Engagement &amp; Outreach (CEO) Core of the MW CTR-IN since its inception to facilitate respectful, community-engaged health disparities research throughout Alaska.&nbsp; Her training as a social worker in policy, practice, and research and working for more than two decades as a community-level practitioner grounds her in the need for and applicability of community-level data.&nbsp;&nbsp;She has worked with a variety of populations in community settings and with organizations on the evaluation of their programs and services.&nbsp;&nbsp;For the past two decades, her role in higher education was as Director of the Center for Community Engagement &amp; Learning at UAA (now retired),&nbsp;&nbsp;providing the link between academic courses and faculty research to meaningful work accomplished in the community, including developing students and faculty in the principles of community-based participatory research. She has publications on poverty and domestic violence, refugee resettlement research, and deepening levels of community engagement.&nbsp;</p>
+</div><div id="boxzilla-box-12621-content"><p>Dr. Charlotte Gard is an Associate Director of the Mentoring Unit for the Professional Development Core of the MW CTR-IN and an Associate Professor of Applied Statistics in the Department of Economics, Applied Statistics and International Business at New Mexico State University (NMSU). Dr. Gard earned her Ph.D. in Biostatistics from the University of Washington and has more than twenty years of experience as a statistician supporting applied collaborative research. Her primary research interests are in breast cancer risk prediction modeling, maternal and child health, and health disparities. Since beginning at NMSU in 2012, Dr. Gard has mentored more than 100 graduate students across the Colleges of Business; Agricultural, Consumer and Environmental Sciences; Arts and Sciences; Engineering; and Health, Education and Social Transformation. Dr. Gard also serves as the NMSU faculty biostatistician for the MW CTR-IN Biostatistics, Epidemiology and Research Design Core, providing biostatistical support to NMSU investigators developing MW CTR-IN pilot grant proposals.</p>
+</div><div id="boxzilla-box-12551-content"><p>Dr. Jagdish Khubchandani is a Professor of Public Health at New Mexico State University. He received his Doctorate in Medicine from India, MPH from Western Kentucky University, and PhD from University of Toledo. Within the past decade, he has coauthored more than 200 articles in prestigious journals such as the Lancet, Journal of American Medical Association, and the New England Journal of Medicine with emphasis on injury and violence prevention, global health, and social epidemiology. More recently, his research has received widespread attention from media outlets such as CNN, Bloomberg News, NY Times, WSJ, and Huffington Post. He has served as a reviewer on grant application panels for NIH, OASH, OMH, and SAMHSA. Currently, he is an editorial board member for multiple journals in the field of medicine and public health and has also served as an elected Director for the World Association of Medical Editors.</p>
+</div><div id="boxzilla-box-12509-content"><p>Dr. Mark Greenwood is a Professor of Statistics at Montana State University in the Department of Mathematical Sciences, where he has been since 2004. He holds a BA in Math/Stat from Luther College (1996) and a Statistics MS and PhD from the University of Wyoming (2000, 2004). He does statistical methodology research in high dimensional data analysis and visualization techniques, focused on functional data analysis and cluster analysis. He has written one textbook on intermediate statistical methods and is working on a textbook on linear mixed models. His primary collaborative research areas are in Multiple Sclerosis and knee osteoarthritis research and using proteomics and metabolomics for developing classifiers in those domains. He was the Director of Statistical Consulting and Research Services at Montana State University from 2019-2022 and has decades of experience collaborating on statistical applications across many disciplines.<u></u>&nbsp;</p>
+</div><div id="boxzilla-box-12507-content"><p>Jack Chen, PhD, is an Associate Director of Faculty Mentoring in the Professional Development (PD) Core of MW CTR-IN. He is a tenured Professor in the Department of Biology &amp; Wildlife, Institute of Arctic Biology at University of Alaska Fairbanks (UAF) and a Public Health Lab Scientist/CLIA consultant in Alaska State Public Health Laboratories. Dr. Chen earned his PhD degree in Pathology and Gene Therapy from Osaka University Medical School and completed a post-doctoral fellowship in Virology and Molecular Biology at the University of British Columbia under the Natural Sciences and Engineering Research Council of Canada (NSERC) Postdoctoral Program. Dr. Chen currently teaches Principles of Virology and Infectious Diseases for undergraduate and graduate programs at UAF.</p>
+<p>Dr. Chen has been working in virology, public health and infectious diseases field for more than thirty years. His research focuses primarily on human viral pathogens that have broad impact on clinical/public health and maintains a high-impact clinical and translational research program to address regional health disparities. Dr. Chen is a Board certified High-Complexity Clinical Laboratory Director (HCLD) by the American Board of Bioanalysis (ABB) and a certified Molecular Biologist (MB) by American Society for Clinical Pathology (ASCP).</p>
+</div><div id="boxzilla-box-12350-content"><p>Jay Shen, Ph.D., is Associate Dean of the School of Public Health and Interim Director of Center for Health Disparities Research. His research covers health services research and public&nbsp;health with focuses on clinical outcomes and quality of care, healthcare disparities, effectiveness and efficiency of healthcare delivery in such areas as cardiovascular and cerebrovascular diseases, diabetes, palliative care, maternal health, behavioral and mental health. He has been funded as PI and co-PI by AHRQ, PCORI, CDC, CMS, and NCSBN. He has served on the grant review study sections of AHRQ, NIH, DoD, and the National Science Foundation of New Zealand. He has authored and co-authored over&nbsp;200 peer-reviewed journal&nbsp;articles, books, book&nbsp;chapters. He earned his&nbsp;SM from Harvard&nbsp;School of Public Health and PhD from Virginia Commonwealth University.</p>
+</div><div id="boxzilla-box-12292-content"><p>Lorraine Evangelista, PhD, RN, FAAN is recognized internationally for her investigation into the care of patients with heart disease and the effects of this disease on the patients and family members. She has over 125 publications on adherence, self-care, quality of life, and health literacy and has received over 10 million dollars from the National Institute of Health for her research. Lorraine brings significant experience in research, funding, publishing, and mentoring. She comes to us from the University of Texas Medical Branch School of Nursing where she served as Associate Dean for Research &amp; Scholarship and Professor Lena Finke Distinguished Chair for Nursing. Dr. Evangelista earned a Master’s Degree in June 1993 and a Doctorate of Philosophy in Nursing in June 2000, both from the University of California, Los Angeles. She has received several recognitions including being a fellow of both the American Heart Association and the American Association for Nursing.</p>
+<p>&nbsp;</p>
+</div><div id="boxzilla-box-12194-content"><p><strong>Rei Serafica, </strong>Ph.D., MSN, APRN, PMHNP-BC, CNE, FTNSS, FAAN is Core Director of the Community Engagement and Outreach (CEO) Core of the Mountain West Clinical and Translational Research Infrastructure Network (MW CTR-IN) Program. Dr. Serafica is a tenured Associate Professor in the School&nbsp; of Nursing at the University of Nevada,&nbsp; Las Vegas.&nbsp; He is&nbsp; a board-certified Psychiatric Mental Health Nurse Practitioner and a Certified Nurse Educator. Dr. Serafica earned his undergraduate and graduate studies in nursing from Gardner-Webb University, his advanced graduate certificate in Psychiatric Mental Health Nurse Practitioner from the University of Nevada, Reno, and his Ph.D. in Nursing (Research and Education) from the University of Hawaii at Manoa. Dr. Serafica’s research trajectory centers on acculturation as it relates to chronic disease of immigrants. His research has led to the development of a new concept: dietary biculturalism, where he explores the phenomenon of unhealthy traditional food consumption by immigrants that elevates their risk of developing food-related chronic illnesses as much as when they consume an unhealthy Western diet during the post-migration phase. Dr. Serafica’s collaborative research team is assessing food insecurity and low sodium diet adherence&nbsp; as it relates to quality of life and mental health status including psychological distress,&nbsp; in patients with hypertension within the primary care setting. Dr. Serafica serves as an associate editor to the Journal of Transcultural Nursing and has published several articles and presented in multiple national and international conferences.</p>
+</div><div id="boxzilla-box-12144-content"><p style="margin: 0in 0in 15.0pt 0in;"><span style="font-size: 13.5pt; font-family: 'Arial',sans-serif;"><strong>Dr. Jeffrey Ebersole</strong>, PhD joined the School of Dental Medicine as a professor of Biomedical Sciences and associate dean for research, and teaches microbiology and immunology to predoctoral students. </span><span style="font-size: 13.5pt; font-family: 'Arial',sans-serif;">An accomplished researcher, Dr. Ebersole leads multiple studies focused on the immunobiology of oral infections, emphasizing&nbsp;<em style="box-sizing: border-box;"><span style="font-family: 'Arial',sans-serif;">in vitro</span></em>, and&nbsp;<em style="box-sizing: border-box;"><span style="font-family: 'Arial',sans-serif;">in vivo</span></em> studies of host-pathogen interactions using animal and human models of oral disease(s).&nbsp;</span><span style="font-size: 13.5pt; font-family: 'Arial',sans-serif;">His CV lists more than 300 publications, reviews, and book chapters about the microbiology and immunology of oral diseases, and directed a major Center of Biomedical Research Excellence grant from the National Institute of Health for 13 years. </span><span style="font-size: 13.5pt; font-family: 'Arial',sans-serif;">Prior to joining UNLV, Dr. Ebersole was the Alvin L. Morris Professor of Oral Health Research, director of the Center for Oral Health Research, and associate dean for research in the College of Dentistry at the University of Kentucky. Dr. Ebersole earned his bachelor’s in biology from Temple University, his Ph.D. in microbiology from the University of Pittsburgh, and completed a postdoctoral fellowship in the department of Immunology at The Forsyth Institute.</span></p>
+</div><div id="boxzilla-box-11978-content"><p><strong>Chantal A. Vella</strong>, PhD, FACSM, is a tenured professor in the Department of Movement Sciences and the Director of the Exercise Physiology Research Laboratory at the University of Idaho. Dr. Vella graduated from the University of New Mexico with a PhD in Exercise Science. Her post-doctoral fellowship in Endocrinology and Metabolism focused on factors associated with glucose regulation in patients with type 2 diabetes. Dr. Vella’s education and research expertise give her a unique perspective on chronic disease prevention across the lifespan. Her primary research focus is understanding the health benefits of physical activity and health consequences of sedentary behavior. She is interested in understanding the independent effects of physical activity and sedentary behavior on cardiometabolic disease risk factors such as obesity, inflammation, insulin resistance, and the gut microbiome.</p>
+</div><div id="boxzilla-box-11662-content"><p><strong>Rachel Boren</strong>, PhD, is the Associate Director for the Tracking &amp; Evaluation Core. Dr. Boren earned her doctorate in Educational Research, Statistics, and Evaluation from the University of Virginia, where she was trained in program evaluation and research methods in education and the social sciences. She has worked as an evaluator in higher education for over a decade for programs that focus on university student success, K-12, healthcare, and workforce development. She is currently the Director of the SOAR Evaluation and Policy Center at New Mexico State University in the College of Health, Education, and Social Transformation. There, she oversees her SOAR team as evaluators on many grants in and outside of the university for funders at the federal, state, and local levels. She is on the NMSU Institutional Review Board and has a background in mixed methods research and survey design.</p>
+</div><div id="boxzilla-box-11574-content"><p><strong>Nancy Pandhi</strong>, MD, MPH, PhD, serves as the CTSC Liaison for the MW CTR-IN Program. She is Associate Chair, a practicing family physician and tenured Professor in the Department of Family and Community Medicine at the University of New Mexico. In addition, she is Director of the UNM Clinical and Translational Science Center.</p>
+<p>The aim of Dr. Pandhi’s community-engaged mixed methods research program is improving the delivery of ambulatory care to vulnerable populations through participant-centered engagement approaches implemented at the individual, team, and organizational levels. She is a founding member of the Health Experiences Research Network and serves on its national steering committee. She co-led the first U.S. project applying these rigorous internationally vetted methods for examining lived health experiences and translating them for educational and clinical quality improvements. At the University of Wisconsin, she co-founded the Primary care Academics Transforming Healthcare collaborative to bring together multidisciplinary change leaders and physicians and bridge primary care clinical transformation and rigorous scientific study.&nbsp; Dr. Pandhi received her B.A. at the University of Chicago, MD at Virginia Commonwealth University, and MPH and PhD at the University of Wisconsin.</p>
+</div><div id="boxzilla-box-11262-content"><p><strong>Jeffrey Chaichana Peterson</strong> received his PhD from the University of New Mexico and trained as a Minority Research Fellow for the U.S. Centers for Disease Control and Prevention/Association of Schools of Public Health/Prevention Research Centers. Currently, he is a Research Professor in the University of Montana&#8217;s School of Public and Community Health Sciences and the Associate Director of the Mountain West CTR-IN&#8217;s Community Engagement and Outreach (CEO) Core. He works in the area of implementation science and advocates for community-based, participatory, and culture-centered approaches to translate evidence-base research from academia tot he front lines of public health practice. In his career, he has worked with diverse populations including the urban homeless, migrant farm workers, Latina pregnant or parenting teens, American Indian communities, and transgender sex workers, among other vulnerable populations.</p>
+</div><div id="boxzilla-box-7103-content"><p><strong>Beth Tigges</strong>, PhD, RN, PPCNP-BC, FAAN is the Director for the Tracking &amp; Evaluation (T&amp;E) Core of the MW CTR-IN Program. She is a tenured Professor and Regents’ Professor at The University of New Mexico (UNM) College of Nursing in Albuquerque, New Mexico. She has experience with mixed methods evaluation of large and complex research centers, particularly those emphasizing infrastructure development, team science, mentoring, and institutional change.&nbsp; She is the founding Director of Tracking and Evaluation for the University of New Mexico NIH-funded Clinical and Translational Science Center (2010–present), and past Co-Chair of the national NIH-NCATS CTSA Program Evaluators’ Group (2017-21). She leads the evaluation for the following NIGMS-funded grants:&nbsp; UNM Center for Brain Recovery and Repair; UNM Autophagy, Inflammation, and Metabolism Center of Biomedical Research Excellence; and the UNM study, Effectiveness of Innovative Research Mentor Interventions among Underrepresented Minority Faculty in the Southwest. She has a background in instrument development and psychometrics, and has designed and/or conducted eight community-based studies, including the U.S. National Children’s Study in New Mexico. Dr. Tigges received her B.S. in Nursing from Penn State, her M.S. in Nursing from Yale University, and a PhD degree from Columbia University in public health and social psychology.</p>
+</div><div id="boxzilla-box-7102-content"><p><strong>Robert “Scott” Seville</strong>, PhD, will serve as the Associate Director of the MW CTR-IN Pilot Projects (CP3) Core and is the Chair of the Concierge Network. He is currently a Professor of Zoology and Physiology in the College of Arts and Sciences at the University of Wyoming. Currently, he serves as the Lead Concierge for MW CTR-IN Concierge Network. Previously, he served as the Associate Dean for the University of Wyoming Outreach School where he had oversight of UW facilities, staff and programs across Wyoming including managing UW Academic Regional Centers located on each Wyoming community college and the Wind River Indian Reservation. He received his Master’s and PhD degrees, and Postdoctoral training in Zoology/Physiology/Parasitology from the University of Wyoming, Laramie, in Wyoming followed by a NSF/NATO Fellowship in Parasitology.</p>
+<p>Dr. Seville’s research has focused on the taxonomy, systematics, and parasite-host co-evolution using gastrointestinal protozoan parasites (coccidia) in wild hosts as a model system. Additionally, he brings experience in leading and managing NIH-funded activities as the Program Director/Principal Investigator, Outreach/Education Core Director, and previously Program Coordinator for the IDeA-funded Wyoming INBRE program. In these leadership roles, he has been responsible for working with the INBRE leadership team and the University of Wyoming Office of Research and Economic Development in managing ~$35M in support from NIGMS IDeA Programs with a number of research, education programs and projects focused on addressing health disparities in rural and American Indian communities in Wyoming.</p>
+</div><div id="boxzilla-box-7101-content"><p><strong>Tony Ward</strong>, PhD, will serve as the Director for the new upcoming Community Engagement and Outreach (CEO) Core in Years 6-10 of the MW CTR-IN Program. In addition to teaching within University of Montana’s School of Public and Community Health Sciences, Dr. Ward’s research focuses on investigating the relationship between air pollution and respiratory health, working with rural and American Indian (AI) and Alaska Native (AN) populations throughout our region. Concurrently, he is the Co-PI on two NIEHS-funded R01s investigating the impact of residential wood burning on respiratory health in both children and elderly populations living in rural and tribal areas located in the southwest, northern Rocky Mountains, and rural Alaska Native communities. He is also the Co-PI on a NIH funded Science Education Partnership Award (SEPA) project that educates rural and AI/AN students in schools throughout Montana, Idaho, and Alaska about air quality/respiratory health. Moreover, Dr. Ward is the Chair at the University of Montana, School of Public and Community Health Sciences in Missoula, Montana, and the State of Montana Director of the CEO Core for the AI/AN Clinical Translational Research Project (CTRP). Dr. Ward received his Masters degree in Environmental Science and Industrial Hygiene from the University of Houston, Clear Lake in Texas, and his PhD degree in Environmental Chemistry from the University of Montana, Missoula, in Montana along with a Postdoctoral.</p>
+<p>Dr. Ward has experience conducting Community Based Participatory Research (CBPR) in rural and underserved communities, including AI/AN communities. His experience with the AI/AN CTRP will be a valuable asset for his role as the CEO Core Director for the CTR-IN, providing synergy for both of the IDeA Programs.</p>
+</div><div id="boxzilla-box-7100-content"><p><strong>Chad Cross, PhD, MFT, PStat(R)</strong>&nbsp;is the Co-Associate Director for the Biostatistics, Epidemiology, Research and Design (BERD) Core for the MW CTR-IN Program. In this role, Dr. Cross provides expertise in scientific research, biostatistical analysis, and Core leadership. Dr. Cross has been a faculty member at several universities (currently at the University of Nevada, Las Vegas), worked for approximately 10 years in federal service (US Environmental Protection Agency and the Veterans Health Administration), and worked in private industry as a scientific subject matter expert and statistician.</p>
+<p>Dr. Cross is trained as a multidisciplinary scientist. He received is PhD in Ecological Sciences (focus in Quantitative Ecology and Statistics) from Old Dominion University in Norfolk Virginia. He additionally holds several master’s degrees: Computational &amp; Applied Mathematics/Statistics (Old Dominion University), Medical Entomology &amp; Nematology (University of Florida), and Counseling (University of Nevada, Las Vegas). His undergraduate training was at Purdue University, where he earned two bachelor’s degrees, one in biological sciences and the other in wildlife science. Dr. Cross has several active areas of research. These include: (1) Public Health: Investigations in population health related to chronic and infectious diseases, with special emphasis on quantitative methodology and use of large databases; (2) Epidemiology &amp; Biostatistics: Applications of statistics and epidemiological principles to problems in the health sciences – for example clinical trials, multivariate models, and population sampling strategies; (3) Medical Entomology &amp; Parasitology: Applied research and field work in arthropod-borne and parasitic diseases, including population-based estimation of disease burden and the intersection of medical entomology and forensic science; (4) Quantitative Ecology: Applications of statistics to problems in the environmental and ecological sciences – for example Bayesian models for estimating avian fatality around wind turbines and mark-recapture sampling; and (5) Psychometrics: Applications of statistics to problems in the psychological sciences – for example randomized controlled trials for interventions and pattern recognition for finding clusters of patients with shared pathology.</p>
+</div><div id="boxzilla-box-7099-content"><p><strong>Ruben Dagda</strong>, PhD, is the Core Director of the Professional Development (PD) Core for the MW CTR-IN Program. In this role, he coordinates the Advance to Funding (ATF) Program and the Grant Writing Workshops (GWW). He received his PhD degree in Pharmacology from the University of Iowa and received his Postdoctoral training at the University of Pittsburgh School of Medicine. Dr. Dagda is also an Associate Professor of Pharmacology at the University of Nevada Reno.</p>
+<p>In this role for the ATF Program, he assists research investigators in the review of their grants prior to submission to the NIH to provide constructive feedback from our many expert reviewers to increase their probability of extramural funding. Hence, the ATF Program functions very much like a “study section”. He is also in charge of coordinating the GWWs, which assist research investigators in improving their knowledge and skills in the preparation of grants to make them more competitive for extramural grant funding.&nbsp;He is currently investigating the molecular mechanisms that lead to mitochondrial dysfunction and oxidative stress in cell culture, tissue and animal models of Parkinson&#8217;s disease. Dr. Dagda has authored multiple research manuscripts and review articles in the areas of toxicology, toxinology, mitochondrial function, and neurobiology. At the University of Nevada Medical School (UNSOM), he is committed to the training and education of undergraduate, graduate students and postdocs in his lab. His main research goals are to elucidate the prosurvival signaling pathways that regulate mitochondrial function, transport and turn-over in neurons and how aging and neurodegenerative diseases negatively impact these processes. The end goal is to develop novel small molecular drugs that can reverse neurodegeneration and elevate mitochondrial function in age-related neurodegenerative diseases.</p>
+</div><div id="boxzilla-box-7098-content"><p><strong>Brach Poston</strong>, PhD, is the Associate Director of the Educational Resources unit of the Professional Development (PD) Core and the Director of the Ambassador Translational Research In Progress Program (ATRIP) for the Mountain West Clinical and Translational Research Infrastructure Network (MW CTR-IN). He is an Associate Professor in the University of Nevada, Las Vegas’ Kinesiology and Nutrition Sciences Department. &nbsp;He teaches Neurophysiology of Movement, Scientific Basis of Strength Training, and Advanced Strength Methods within the undergraduate program, and Neurophysiology of Movement and Biomechanics of Strength within the graduate program.</p>
+<p>Dr. Poston’s research focuses primarily on the use of non-invasive brain stimulation (transcranial direct current stimulation and transcranial magnetic stimulation) to improve motor skill and learning in Parkinson’s disease, aging, and young adults. He also conducts research on strength training and muscle fatigue as well as concussion in boxing and mixed martial arts.</p>
+<p>Before coming to UNLV, Dr. Poston was a project scientist at the Cleveland Clinic Lou Ruvo Center for Brain Health in Las Vegas. Prior to this position, he completed a post-doctoral research fellowship in the Human Motor Control Section, Medical Neurology Branch of the National Institute of Neurological Disorders and Stroke at the National Institutes of Health. He also received postdoctoral training at Arizona State University in neural and motor control.</p>
+<p>Dr. Poston earned his Ph.D. in Integrative Physiology from the University of Colorado-Boulder, a Master’s in Exercise Physiology from the University of Nevada Las Vegas, and a Bachelor’s in Physical Education from Southwest Missouri State University. He has received research funding from NIH/NINDS, Mountain West CTR-IN, and the Michael J. Fox Foundation. Poston has also served on several NASA human performance grant review panels and will become Director of the Interdisciplinary Neuroscience Ph.D. program at UNLV in 2022.</p>
+</div><div id="boxzilla-box-7097-content"><p><strong>Juli Petereit, </strong>MS, PhD is the Associate Core Director of the Biostatistics, Epidemiology and Research Design (BERD) core for the MW-CTR-IN Program. In addition, she is the Director of the Nevada Bioinformatics Center and Co-Director for the Data Science Core for Biomedical Research, NIH IDeA NV INBRE at the University of Nevada, Reno (UNR). Dr. Petereit received her PhD in Biomedical Engineering and MS in Applied Mathematics from UNR in 2016 and 2010 respectively.&nbsp;</p>
+<p>As a bioinformatics scientist, Dr. Petereit supports researchers at UNR as an expert in small- and large-scale statistical analyses, quantitative analyses, statistical inference, (social/gene) network modeling, analysis of complex statistical data, analysis of large-scale high-throughput omics data, and other advanced bioinformatics and biostatistical applications. She serves an interdisciplinary research community and is involved in numerous research projects ranging from survey studies in social behavioral science to studies examining protein levels across multiple experimental conditions.</p>
+<p>Dr. Petereit has been involved with the Nevada Bioinformatics Center since March 2017 and has continued to contribute her unique skill set towards&nbsp;providing comprehensive support for the MW CTR-IN Program&#8217;s need for study design, biostatistics, and data management.&nbsp;She is committed to integrating biostatistics support into the fabric of MW CTR-IN clinical and translational research culture by providing state-of-the-art bioinformatics and (bio)statistics services for individual research projects by conducting custom and standardized data analytical protocols (for bioinformatics, biostatistics, and biomedical data science), developing statistical &amp; computational pipelines to ensure reproducible research, and assisting in pre-proposal support and extramural grant applications.</p>
+</div><div id="boxzilla-box-7096-content"><h1>Akshay Sood Bio</h1>
+<p><strong>Akshay Sood</strong>, MD, MPH</p>
+<p><strong>Akshay Sood, MD, MPH</strong> is the Associate Director of the Professional Development (PD) Core for the Mountain West CTR-IN Program. As the Associate Director for the PD Core’s Mentoring Unit, Dr. Sood’s focus is on the Mentorship Program. Dr. Sood obtained his Master’s in Public Health from Yale University and completed his fellowship training in Pulmonary, Critical Care and Occupational Medicine at Yale University &#8211; School of Medicine.</p>
+<p>Dr. Sood is currently the Assistant Dean of Mentoring and Faculty Retention for the School of Medicine Office of Faculty Affairs and Career Development at the University of New Mexico Health Sciences Center (UNM-HSC). In addition, he is a Tenured Professor for UNM-HSC’s Department of Medicine, Divisions of Pulmonary, Critical Care &amp; Sleep Medicine and Epidemiology. Dr. Sood’s interest in the epidemiology of chronic lung diseases has helped him build a unique academic career around the clinical translational basis for the association between non-smoking host factors and obstructive lung diseases. He leads the UNM HSC Faculty Mentor Development Program and is the P.I. of a U01 grant on the “Effectiveness of Innovative Research Mentor Interventions among Underrepresented Minority Faculty in the Southwest (NIGMS U01GM132175-01)”. He serves as a member of the Executive Steering Committee of the Diversity Program Consortium at the NIH. Dr. Sood has a natural passion for research education, supporting scholars, and trainees as they learn the steps necessary to assemble an independent research program. His mentoring experience provides a strong basis for his leadership for the MW CTR-IN Program’s PD Core.</p>
+</div><div id="boxzilla-box-7095-content"><p><strong>Larissa Myaskovsky</strong>, PhD, is the Director of the Professional Development (PD) Core, Director for the Mountain West CTR-IN’s Ambassador Translational Research in Progress (ATRIP) Program, and Director of Mentoring Unit for the Mountain West CTR-IN Program.&nbsp; She is a tenured Professor in the Department of Internal Medicine and the Director of the Center Healthcare Equity in Kidney Disease at the University of New Mexico, Health Sciences Center.</p>
+<p>Dr. Myaskovsky received her BA in Psychology with Specialization in Women’s Studies from the University of California, Los Angeles, her MA in General-Experimental Psychology from California State University, Northridge, and a PhD in Social Psychology from the University of Pittsburgh. She completed a post-doctoral fellowship in Clinical Epidemiology at the University of Pittsburgh, School of Medicine, and a fellowship in Health Services Research at the Center for Health Equity Research and Promotion at the VA Pittsburgh Healthcare System.&nbsp;With more than 20 years of research experience and funding, her NIH and VA-funded research focuses on the social determinants of health and using a multi-method and multi-disciplinary approach to identify and understand disparities in healthcare processes and outcomes, and to develop interventions to reduce health disparities in vulnerable populations. Before joining the UNM faculty in 2017, Dr. Myaskovsky was a tenured Associate Professor of Medicine, Psychiatry, and Clinical and Translational Science at the University of Pittsburgh, School of Medicine, and completed a year-long NIH-funded Professional Mentoring Skills Enhancing Diversity leadership training program through the National Research Mentoring Network, and was the 2017 recipient of the Philip Troen, MD Excellence in Medical Student Research Mentoring Award. She has taught medical writing and presentation, research grant design and development, measurement design and development, and healthcare disparities research methods to early career faculty, fellows, graduate and medical students. Dr. Myaskovsky is passionate about research education, and supporting scholars and trainees as they assemble an independent research program. Her mentorship and leadership experience provides a strong basis for leading the MW CTR-IN Professional Development Core.</p>
+</div><div id="boxzilla-box-7094-content"><p><strong>Curtis Noonan</strong>, PhD, MA is the Director of the Clinical Pilot Projects Program (CP3) Core. He has served in this role for the past five years and will continue to serve in this role for the next grant cycle. The CP3 Core has successfully administered the single institution, single investigator and the multi-site pilot grants since the inception of the Mountain West CTR-IN Program.</p>
+<p>Dr. Noonan received his MA degree in International Health and Development from George Washington University and his PhD in Environmental Health, Epidemiology from Colorado State University. He is currently a Professor of Epidemiology in the College of Health Professions and Biomedical Sciences at the University of Montana. He has led NIH funded multi-site randomized trials focused on improving health outcomes and reducing exposures among vulnerable populations exposed to elevated levels of particulate matter from burning of biomass fuels for residential heating. Dr. Noon is a member of the Infectious, Reproductive, Asthma and Pulmonary Conditions (IRAP) Study Section.</p>
+</div><div id="boxzilla-box-7093-content"><p><strong>Weiyu Mao</strong>, PhD, MSW, MPhil is an Associate Director of the Educational Resources in the Professional Development (PD) Core of the Mountain West Clinical and Translational Research Infrastructure Network (MW CTR-IN) Program. Dr. Mao is a tenured Associate Professor in the School of Social Work at the University of Nevada, Reno. Dr. Mao received her Master of Social Work, PhD, and post-doctoral training from the University of Southern California (USC) as well as her Master of Philosophy in Social Welfare from the Chinese University of Hong Kong and Bachelor of Law from Nankai University, China.</p>
+<p>Dr. Mao’s research program aims to improve health and quality of life for vulnerable older adults and their families. Dr. Mao’s current research has focused on the investigations of social determinants of health (including oral health) in both heritage- and receiving- cultures. Dr. Mao strives to further the understanding of health disparities (including oral health disparities) among older ethnic and racial minority populations (e.g., older Asians and older Asian Americans) and explicate how social determinants, especially understudied psychosocial determinants, are associated with varying exposures and vulnerabilities to health inequities.</p>
+<p>Dr. Mao has been gravitating towards interdisciplinary research and leading interdisciplinary teams, including collaborators from sociology, nursing, public health, and medicine. Dr. Mao’s work has been featured in high impact peer reviewed journals, including The Gerontologist, Journal of the American Geriatrics Society, Journal of Dental Research, Community Dentistry and Oral Epidemiology, and The International Journal of Geriatric Psychiatry. Dr. Mao is currently working on two pilot projects funded by the Asian Research Center for Minority Aging Research (Asian RCMAR), National Institute on Aging and by Division of Aging and Disability Services, Nevada Department of Health and Human Services. Dr. Mao has a passion for advocating, promoting, and supporting research and related activities. &nbsp;&nbsp;&nbsp;&nbsp;</p>
+</div><div id="boxzilla-box-7092-content"><h1>Richard Larson Bio</h1>
+<p>Richard Larson, MD, PhD, serves as the CTSC Liaison for the MW CTR-IN Program. He is the Executive Vice Chancellor for Research of Health Sciences at the University of New Mexico Health Sciences Center as well as a tenured Professor at the University of New Mexico. In addition, he is also the PI of the UNM Clinical and Translational Science Center. He also served on the Board of Directors for the National Center for Genome Research. In 2001, he co-founded Cancer Services of New Mexico, a non-profit organization which serves, free of charge, over 2000 New Mexicans suffering from cancer each year. Moreover, he is the President of the Cancer Services of New Mexico Foundation. In addition, Moreover, he also serves as the Chair of the Mountain West Research Consortium, which was critical in laying down the ground work for the eventual development of the MW CTR-IN Program. Dr. Larson received his MD and PhD degrees from Harvard University and performed his residency training at Washington University in St. Louis and fellowship training at Vanderbilt University in Pathology.</p>
+</div><div id="boxzilla-box-7089-content"><p><strong>Francisco S. Sy</strong>, MD, DrPH is the Principal Investigator (PI) of the MW CTR-IN Program. He is a Professor and Chair of the Department of Environmental and Occupational Health at the University of Nevada, Las Vegas (UNLV) School of Public Health. Dr. Sy earned his Doctor of Public Health (DrPH) in Immunology &amp; Infectious Diseases in 1984 from Johns Hopkins Bloomberg School of Public Health; and his Master of Science (SM) in Tropical Public Health in 1981 from Harvard T.F. Chan School of Public Health. He obtained his MD degree in 1975 and BS Pre-Med in 1970 from the University of the Philippines.</p>
+<p>Dr. Sy worked at the National Institutes of Health (NIH) for 12 years. In 2004, he was appointed as a Health Scientist Administrator in the National Institute on Minority Health and Health Disparities (NIMHD) where he developed and managed the NIMHD Community-Based Participatory Research (CBPR) Program. He also managed the NIMHD Loan Repayment Program and the Research Endowment Program. In 2007, Dr. Sy was promoted to the position of Director of&nbsp; Extramural Activities and Scientific Programs at NIMHD.&nbsp; As the DEA Director, Dr. Sy was responsible for the scientific and administrative management of the division, and served as the principal advisor to the NIMHD Director on programmatic resource decisions and research administration policies. He provided leadership and oversight of the Grants Management Office, Scientific Review Office, and the Scientific Programs Office at NIMHD. Dr. Sy advocated and wrote the justifications for adding sexual and gender minorities (SGM) in the list of health disparities populations which was approved by the NIH Director and Secretary of HHS in 2016. When he retired from NIH in May 2016, his colleagues at NIH, CDC and the Federal Asian Pacific American Council (FAPAC) created the <strong><em>Francisco Sy Excellence in Mentorship Award</em></strong>. It is an annual award given to an outstanding scientist who has excelled in mentoring junior scientists at HHS.</p>
+<p>Dr. Sy worked at the Centers for Disease Control and Prevention (CDC) for 4 years. He was a Senior Health Scientist in the Program Evaluation Branch, Division of HIV/AIDS Prevention at the National Center for HIV/AIDS, Viral Hepatitis, STD, and TB Prevention. He was a member of the CDC SARS Outbreak Investigation Team in 2003. He led the CDC SARS Community Outreach Team in Asian communities in the U.S. to mitigate the fear and stigma associated with SARS. &nbsp;Dr. Sy was an Associate Professor of Epidemiology at University of South Carolina School of Public Health and taught infectious disease epidemiology for 15 years. Dr. Sy developed and continues to serve since 1988 as the Editor of <strong><em>AIDS Education and Prevention- An Interdisciplinary Journal</em></strong>, a bimonthly peer reviewed international journal published by Guilford Publications in New York.</p>
+</div><div id="boxzilla-box-7086-content"><h1>Xiaomeng (Mona) Xu</h1>
+<p>Dr. Xu is a 2015 MW CTR-IN Pilot Grant Awardee recipient. Her project was entitled, “Understanding the Role of Self-Expansion in Physical Activity”. Her research focuses on cardiovascular behavioral health including weight control, smoking and physical activity; close relationships, especially romantic; and magnetic resonance imaging (MRI) neuroimaging. Dr. Xu is also interested in these research areas in the context of individual differences such as trait self-control, and development over time, such as aging or as a romantic relationship progresses.</p>
+<p>Dr. Xu received a Bachelor of Arts Degree in psychology from New York University, and Master of Arts Degree in psychology from Stony Brook University, and a Ph.D. in social health psychology from Stony Brook University. She completed a postdoctoral research fellowship sponsored by the National Institutes of Health at The Warren Alpert Medical School of Brown University and The Miriam Hospital.</p>
+<p>Dr. Xu is an Assistant Professor of Experimental Psychology at Idaho State University and was honored as a 2015 Rising Star from the Association for Psychological Science. As a result of her advanced work in the field, the Association for Psychological Science has recognized Dr. Xu as an outstanding psychological scientist. As facilitated by the Individualized Development Plan (IDP) which is a critical component of the CTR-IN PG award, Dr. Xu had a successful mentorship experience with her mentor, Claudio Nigg, PhD, from the University of Hawaii. The pilot grant’s IDP provides mentorship for career development. As a result of the mentoring facilitated by the IDP, Dr. Xu has collaborated with Dr. Nigg on various projects, which have led to a manuscript publication, poster presentations, future collaborations, etc. Moreover, based on her academic productivity which has been significantly facilitated by the MW CTR-IN PG award, she will be applying for tenure at Idaho State University.</p>
+</div><div id="boxzilla-box-7083-content"><h1>Susan Tavernier</h1>
+<p><em>Education: BSN from Whitworth University in Spokane in Washington; MSN from Loyola University of Chicago; PhD in Nursing from the University of Utah; Postdoctoral fellowship from the College of Nursing at the University of Utah.</em></p>
+<blockquote><p>MW CTR-IN helped to provide education in grant management, post-award processes, timeline projections, and meaningful tools for grant tracking.</p></blockquote>
+<p>Dr. Tavernier was a Year 4 MW CTR-IN Pilot Grant Awardee in 2016. Her project was entitled, “The Patient Voice in Healthcare”. The MW CTR-IN pilot grant was also instrumental in helping her with the nuances of grant management including hiring personnel, budgets, quarterly and annual reports. As a nurse scientist, her research area focuses on cancer patients. She has gained expertise with large qualitative data sets and has conducted research in the clinical setting. Dr. Tavernier is currently an Assistant Professor at Idaho State University in the School of Nursing and was a recipient of a Presidential Scholarship for new health service researchers from Academy Health.<br />
+Additionally, she has authored a chapter on Symptom Distress in the textbook Cancer Symptom Management 4th Edition, and has served as a review panel member for the Oncology Nursing Foundation for research and awards. She is also an active member of the Oncology Nursing Society.</p>
+</div><div id="boxzilla-box-7071-content"><h1>Blakely Brown</h1>
+<p><em>Education: PhD in Nutritional Biochemistry from the University of Minnesota; RD from the University of Minnesota</em></p>
+<blockquote><p>MW CTR-IN helped to expand collaborations for a nutrition and physical activity study with a direct impact on the health of community children.</p></blockquote>
+<p>Dr. Blakely Brown was a MW CTR-IN Pilot Grant (PG) Awardee and Visiting Scholar in 2014. Her project was entitled, “Developing and Pilot Testing Parent Education Activities within a Childhood Obesity Prevention After-School Program”. Dr. Brown built upon this PG research funding from the MW CTR-IN Program and secured 3 additional extramural grants also in the areas of childhood obesity totaling $278,167 in extramural grant funding as follows: (1) Partnerships to Prevent Childhood Obesity on the Flathead Indian Reservation; (2) Generations Health Project: An After-School and Home Based Childhood Obesity Prevention Program; (3) and USDA Strengthening Grant: Growing Strong Generations. These research studies have allowed Dr. Brown to successfully expand her research collaborations with rural and Native American communities that have resulted in longitudinal outcomes reporting risk factors for diabetes in native and non-native children, assessments of environmental and behavioral factors associated with risk for childhood obesity and diabetes in youth in rural communities.<br />
+Dr. Brown’s research, teaching and service focus on nutrition and chronic disease prevention, maternal-child health, childhood obesity and diabetes prevention, community-based participatory research methods, Native American health and diversity-related activities.</p>
+</div></div>                <!--facebook like and share js -->
+                <div id="fb-root"></div>
+                
+                <script>
+window.addEventListener('sfsi_functions_loaded', function() {
+    if (typeof sfsi_responsive_toggle == 'function') {
+        sfsi_responsive_toggle(0);
+        // console.log('sfsi_responsive_toggle');
+
+    }
+})
+</script>
+    <script>
+        window.addEventListener('sfsi_functions_loaded', function () {
+            if (typeof sfsi_plugin_version == 'function') {
+                sfsi_plugin_version(2.77);
+            }
+        });
+
+        function sfsi_processfurther(ref) {
+            var feed_id = 'eUR4YUV0NXlGZFlPNFdRY2xPUW9ZUXlBT3phYi9JRGN4d3NMaldveVRTOFhFT1JJeGdCbmRqQ3FKa0dtYTVhZVN2c1N4dWZ0ZVhja1RSZlRXSDRHTW5mSVRYR0srcG9JYWZ6MVJ5UnV5L2RwQXh0Z3RhU1Y4SERib2RHQU85bmd8TWR1MjFDUURLN0RyTXJrYmxrLzFzK2Z5SHlTTjdlRDg4TzlCQXhkR0VROD0=';
+            var feedtype = 8;
+            var email = jQuery(ref).find('input[name="email"]').val();
+            var filter = /^(([^<>()[\]\\.,;:\s@\"]+(\.[^<>()[\]\\.,;:\s@\"]+)*)|(\".+\"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
+            if ((email != "Enter your email") && (filter.test(email))) {
+                if (feedtype == "8") {
+                    var url = "https://api.follow.it/subscription-form/" + feed_id + "/" + feedtype;
+                    window.open(url, "popupwindow", "scrollbars=yes,width=1080,height=760");
+                    return true;
+                }
+            } else {
+                alert("Please enter email address");
+                jQuery(ref).find('input[name="email"]').focus();
+                return false;
+            }
+        }
+    </script>
+    <style type="text/css" aria-selected="true">
+        .sfsi_subscribe_Popinner {
+             width: 100% !important;
+
+            height: auto !important;
+
+         border: 1px solid #b5b5b5 !important;
+
+         padding: 18px 0px !important;
+
+            background-color: #ffffff !important;
+        }
+
+        .sfsi_subscribe_Popinner form {
+            margin: 0 20px !important;
+        }
+
+        .sfsi_subscribe_Popinner h5 {
+            font-family: Helvetica,Arial,sans-serif !important;
+
+             font-weight: bold !important;   color:#000000 !important; font-size: 16px !important;   text-align:center !important; margin: 0 0 10px !important;
+            padding: 0 !important;
+        }
+
+        .sfsi_subscription_form_field {
+            margin: 5px 0 !important;
+            width: 100% !important;
+            display: inline-flex;
+            display: -webkit-inline-flex;
+        }
+
+        .sfsi_subscription_form_field input {
+            width: 100% !important;
+            padding: 10px 0px !important;
+        }
+
+        .sfsi_subscribe_Popinner input[type=email] {
+         font-family: Helvetica,Arial,sans-serif !important;   font-style:normal !important;   font-size:14px !important; text-align: center !important;        }
+
+        .sfsi_subscribe_Popinner input[type=email]::-webkit-input-placeholder {
+
+         font-family: Helvetica,Arial,sans-serif !important;   font-style:normal !important;  font-size: 14px !important;   text-align:center !important;        }
+
+        .sfsi_subscribe_Popinner input[type=email]:-moz-placeholder {
+            /* Firefox 18- */
+         font-family: Helvetica,Arial,sans-serif !important;   font-style:normal !important;   font-size: 14px !important;   text-align:center !important;
+        }
+
+        .sfsi_subscribe_Popinner input[type=email]::-moz-placeholder {
+            /* Firefox 19+ */
+         font-family: Helvetica,Arial,sans-serif !important;   font-style: normal !important;
+              font-size: 14px !important;   text-align:center !important;        }
+
+        .sfsi_subscribe_Popinner input[type=email]:-ms-input-placeholder {
+
+            font-family: Helvetica,Arial,sans-serif !important;  font-style:normal !important;   font-size:14px !important;
+         text-align: center !important;        }
+
+        .sfsi_subscribe_Popinner input[type=submit] {
+
+         font-family: Helvetica,Arial,sans-serif !important;   font-weight: bold !important;   color:#000000 !important; font-size: 16px !important;   text-align:center !important; background-color: #dedede !important;        }
+
+                .sfsi_shortcode_container {
+            float: left;
+        }
+
+        .sfsi_shortcode_container .norm_row .sfsi_wDiv {
+            position: relative !important;
+        }
+
+        .sfsi_shortcode_container .sfsi_holders {
+            display: none;
+        }
+
+            </style>
+
+    	<script type="text/javascript">
+				var et_animation_data = [{"class":"et_pb_image_0","style":"slideTop","repeat":"once","duration":"500ms","delay":"0ms","intensity":"10%","starting_opacity":"0%","speed_curve":"ease-in-out"}];
+				</script>
+	<script src="../wp-content/uploads/ctrin-dist.js"></script><link rel='stylesheet' id='wp-block-library-css' href='../wp-includes/css/dist/block-library/style.min.d1c030326a.css' type='text/css' media='none' onload="media='all'" />
+<script type="text/javascript" src="../wp-content/plugins/constant-contact-forms/assets/js/ctct-plugin-recaptcha-v2.min.f71b07265a.js" id="recaptcha-v2-js"></script>
+<script async="async" defer type="text/javascript" src="https://www.google.com/recaptcha/api.js?onload=renderReCaptcha&amp;render=explicit&amp;ver=2.8.0" id="recaptcha-lib-v2-js"></script>
+<script type="text/javascript" src="../wp-content/plugins/constant-contact-forms/assets/js/ctct-plugin-frontend.min.f71b07265a.js" id="ctct_frontend_forms-js"></script>
+<script type="text/javascript" src="../wp-includes/js/dist/hooks.min.4fddbd9c6f.js" id="wp-hooks-js"></script>
+<script type="text/javascript" src="../wp-includes/js/dist/i18n.min.c33ce33355.js" id="wp-i18n-js"></script>
+<script type="text/javascript" id="wp-i18n-js-after">
+/* <![CDATA[ */
+wp.i18n.setLocaleData( { 'text direction\u0004ltr': [ 'ltr' ] } );
+/* ]]> */
+</script>
+<script type="text/javascript" src="../wp-content/plugins/contact-form-7/includes/swv/js/index.dc2437cdc4.js" id="swv-js"></script>
+<script type="text/javascript" id="contact-form-7-js-before">
+/* <![CDATA[ */
+var wpcf7 = {
+    "api": {
+        "root": "https:\/\/ctrin.unlv.edu\/wp-json\/",
+        "namespace": "contact-form-7\/v1"
+    }
+};
+/* ]]> */
+</script>
+<script type="text/javascript" src="../wp-content/plugins/contact-form-7/includes/js/index.dc2437cdc4.js" id="contact-form-7-js"></script>
+<script type="text/javascript" src="../wp-content/plugins/custom-css-js-php/assets/js/wcjp-frontend.d1c030326a.js" id="wcjp-frontend.js-js"></script>
+<script type="text/javascript" src="../wp-includes/js/jquery/ui/core.min.b37ee77485.js" id="jquery-ui-core-js"></script>
+<script type="text/javascript" src="../wp-content/plugins/ultimate-social-media-icons/js/shuffle/modernizr.custom.min.d1c030326a.js" id="SFSIjqueryModernizr-js"></script>
+<script type="text/javascript" src="../wp-content/plugins/ultimate-social-media-icons/js/shuffle/jquery.shuffle.min.d1c030326a.js" id="SFSIjqueryShuffle-js"></script>
+<script type="text/javascript" src="../wp-content/plugins/ultimate-social-media-icons/js/shuffle/random-shuffle-min.d1c030326a.js" id="SFSIjqueryrandom-shuffle-js"></script>
+<script type="text/javascript" id="SFSICustomJs-js-extra">
+/* <![CDATA[ */
+var sfsi_icon_ajax_object = {"nonce":"30f0806753","ajax_url":"https:\/\/ctrin.unlv.edu\/wp-admin\/admin-ajax.php","plugin_url":"https:\/\/ctrin.unlv.edu\/wp-content\/plugins\/ultimate-social-media-icons\/"};
+/* ]]> */
+</script>
+<script type="text/javascript" src="../wp-content/plugins/ultimate-social-media-icons/js/custom.76edf00a17.js" id="SFSICustomJs-js"></script>
+<script type="text/javascript" id="divi-custom-script-js-extra">
+/* <![CDATA[ */
+var DIVI = {"item_count":"%d Item","items_count":"%d Items"};
+var et_builder_utils_params = {"condition":{"diviTheme":true,"extraTheme":false},"scrollLocations":["app","top"],"builderScrollLocations":{"desktop":"app","tablet":"app","phone":"app"},"onloadScrollLocation":"app","builderType":"fe"};
+var et_frontend_scripts = {"builderCssContainerPrefix":"#et-boc","builderCssLayoutPrefix":"#et-boc .et-l"};
+var et_pb_custom = {"ajaxurl":"https:\/\/ctrin.unlv.edu\/wp-admin\/admin-ajax.php","images_uri":"https:\/\/ctrin.unlv.edu\/wp-content\/themes\/Divi\/images","builder_images_uri":"https:\/\/ctrin.unlv.edu\/wp-content\/themes\/Divi\/includes\/builder\/images","et_frontend_nonce":"65003b99d2","subscription_failed":"Please, check the fields below to make sure you entered the correct information.","et_ab_log_nonce":"129551e32a","fill_message":"Please, fill in the following fields:","contact_error_message":"Please, fix the following errors:","invalid":"Invalid email","captcha":"Captcha","prev":"Prev","previous":"Previous","next":"Next","wrong_captcha":"You entered the wrong number in captcha.","wrong_checkbox":"Checkbox","ignore_waypoints":"no","is_divi_theme_used":"1","widget_search_selector":".widget_search","ab_tests":[],"is_ab_testing_active":"","page_id":"4117","unique_test_id":"","ab_bounce_rate":"5","is_cache_plugin_active":"no","is_shortcode_tracking":"","tinymce_uri":"https:\/\/ctrin.unlv.edu\/wp-content\/themes\/Divi\/includes\/builder\/frontend-builder\/assets\/vendors","accent_color":"#7EBEC5","waypoints_options":[]};
+var et_pb_box_shadow_elements = [];
+/* ]]> */
+</script>
+<script type="text/javascript" src="../wp-content/themes/Divi/js/scripts.min.41c15d2ebd.js" id="divi-custom-script-js"></script>
+<script type="text/javascript" src="../wp-content/themes/Divi/core/admin/js/common.41c15d2ebd.js" id="et-core-common-js"></script>
+<script type="text/javascript" id="boxzilla-js-extra">
+/* <![CDATA[ */
+var boxzilla_options = {"testMode":"","boxes":[{"id":13273,"icon":"&times;","content":"","css":{"width":600,"position":"center"},"trigger":false,"animation":"fade","cookie":{"triggered":0,"dismissed":0},"rehide":false,"position":"center","screenWidthCondition":null,"closable":true,"post":{"id":13273,"title":"Lauren Lessard","slug":"lauren-lessard"}},{"id":13241,"icon":"&times;","content":"","css":{"width":600,"position":"center"},"trigger":false,"animation":"fade","cookie":{"triggered":0,"dismissed":0},"rehide":false,"position":"center","screenWidthCondition":null,"closable":true,"post":{"id":13241,"title":"Andrea Bersamin","slug":"andrea-bersamin"}},{"id":13240,"icon":"&times;","content":"","css":{"width":600,"position":"center"},"trigger":false,"animation":"fade","cookie":{"triggered":0,"dismissed":0},"rehide":false,"position":"center","screenWidthCondition":null,"closable":true,"post":{"id":13240,"title":"Deborah Kuhls","slug":"deborah-kuhls"}},{"id":13072,"icon":"&times;","content":"","css":{"width":600,"position":"center"},"trigger":false,"animation":"fade","cookie":{"triggered":0,"dismissed":0},"rehide":false,"position":"center","screenWidthCondition":null,"closable":true,"post":{"id":13072,"title":"Rebecca Palacios","slug":"rebecca-palacios"}},{"id":12660,"icon":"&times;","content":"","css":{"width":600,"position":"center"},"trigger":false,"animation":"fade","cookie":{"triggered":0,"dismissed":0},"rehide":false,"position":"center","screenWidthCondition":null,"closable":true,"post":{"id":12660,"title":"Judith Owens-Manley","slug":"judith-owens-manley"}},{"id":12621,"icon":"&times;","content":"","css":{"width":600,"position":"center"},"trigger":false,"animation":"fade","cookie":{"triggered":0,"dismissed":0},"rehide":false,"position":"center","screenWidthCondition":null,"closable":true,"post":{"id":12621,"title":"Charlotte Gard","slug":"charlotte-gard"}},{"id":12551,"icon":"&times;","content":"","css":{"width":600,"position":"center"},"trigger":false,"animation":"fade","cookie":{"triggered":0,"dismissed":0},"rehide":false,"position":"center","screenWidthCondition":null,"closable":true,"post":{"id":12551,"title":"Jagdish Khubchandani","slug":"jagdish-khubchandani"}},{"id":12509,"icon":"&times;","content":"","css":{"width":600,"position":"center"},"trigger":false,"animation":"fade","cookie":{"triggered":0,"dismissed":0},"rehide":false,"position":"center","screenWidthCondition":null,"closable":true,"post":{"id":12509,"title":"Mark Greenwood","slug":"mark-greenwood"}},{"id":12507,"icon":"&times;","content":"","css":{"width":600,"position":"center"},"trigger":false,"animation":"fade","cookie":{"triggered":0,"dismissed":0},"rehide":false,"position":"center","screenWidthCondition":null,"closable":true,"post":{"id":12507,"title":"Jack Chen","slug":"jack-chen"}},{"id":12350,"icon":"&times;","content":"","css":{"width":600,"position":"center"},"trigger":false,"animation":"fade","cookie":{"triggered":0,"dismissed":0},"rehide":false,"position":"center","screenWidthCondition":null,"closable":true,"post":{"id":12350,"title":"Jay Shen","slug":"jay-shen"}},{"id":12292,"icon":"&times;","content":"","css":{"width":600,"position":"center"},"trigger":false,"animation":"fade","cookie":{"triggered":0,"dismissed":0},"rehide":false,"position":"center","screenWidthCondition":null,"closable":true,"post":{"id":12292,"title":"Lorraine Evangelista","slug":"lorraine-evangelista"}},{"id":12194,"icon":"&times;","content":"","css":{"width":600,"position":"center"},"trigger":false,"animation":"fade","cookie":{"triggered":0,"dismissed":0},"rehide":false,"position":"center","screenWidthCondition":null,"closable":true,"post":{"id":12194,"title":"Reimund Serafica","slug":"reimund-serafica"}},{"id":12144,"icon":"&times;","content":"","css":{"width":600,"position":"center"},"trigger":false,"animation":"fade","cookie":{"triggered":0,"dismissed":0},"rehide":false,"position":"center","screenWidthCondition":null,"closable":true,"post":{"id":12144,"title":"Jeffrey Ebersole","slug":"jeffrey-ebersole"}},{"id":11978,"icon":"&times;","content":"","css":{"width":600,"position":"center"},"trigger":false,"animation":"fade","cookie":{"triggered":0,"dismissed":0},"rehide":false,"position":"center","screenWidthCondition":null,"closable":true,"post":{"id":11978,"title":"Chantal Vella","slug":"chantal-vella"}},{"id":11662,"icon":"&times;","content":"","css":{"width":600,"position":"center"},"trigger":false,"animation":"fade","cookie":{"triggered":0,"dismissed":0},"rehide":false,"position":"center","screenWidthCondition":null,"closable":true,"post":{"id":11662,"title":"Rachel Boren","slug":"rachel-boren"}},{"id":11574,"icon":"&times;","content":"","css":{"width":600,"position":"center"},"trigger":false,"animation":"fade","cookie":{"triggered":0,"dismissed":0},"rehide":false,"position":"center","screenWidthCondition":null,"closable":true,"post":{"id":11574,"title":"Nancy Pandhi","slug":"nancy-pandhi"}},{"id":11262,"icon":"&times;","content":"","css":{"width":600,"position":"center"},"trigger":false,"animation":"fade","cookie":{"triggered":0,"dismissed":0},"rehide":false,"position":"center","screenWidthCondition":null,"closable":true,"post":{"id":11262,"title":"Jeffrey Peterson","slug":"jeffrey-peterson"}},{"id":7103,"icon":"&times;","content":"","css":{"width":600,"position":"center"},"trigger":false,"animation":"fade","cookie":{"triggered":0,"dismissed":0},"rehide":false,"position":"center","screenWidthCondition":null,"closable":true,"post":{"id":7103,"title":"Beth Tigges","slug":"beth-tigges"}},{"id":7102,"icon":"&times;","content":"","css":{"width":600,"position":"center"},"trigger":false,"animation":"fade","cookie":{"triggered":0,"dismissed":0},"rehide":false,"position":"center","screenWidthCondition":null,"closable":true,"post":{"id":7102,"title":"Robert Seville","slug":"robert-seville"}},{"id":7101,"icon":"&times;","content":"","css":{"width":600,"position":"center"},"trigger":false,"animation":"fade","cookie":{"triggered":0,"dismissed":0},"rehide":false,"position":"center","screenWidthCondition":null,"closable":true,"post":{"id":7101,"title":"Tony Ward","slug":"tony-ward"}},{"id":7100,"icon":"&times;","content":"","css":{"width":600,"position":"center"},"trigger":false,"animation":"fade","cookie":{"triggered":0,"dismissed":0},"rehide":false,"position":"center","screenWidthCondition":null,"closable":true,"post":{"id":7100,"title":"Chad Cross","slug":"fares-qeadan"}},{"id":7099,"icon":"&times;","content":"","css":{"width":600,"position":"center"},"trigger":false,"animation":"fade","cookie":{"triggered":0,"dismissed":0},"rehide":false,"position":"center","screenWidthCondition":null,"closable":true,"post":{"id":7099,"title":"Ruben Dagda","slug":"cristiana-iosef"}},{"id":7098,"icon":"&times;","content":"","css":{"width":600,"position":"center"},"trigger":false,"animation":"fade","cookie":{"triggered":0,"dismissed":0},"rehide":false,"position":"center","screenWidthCondition":null,"closable":true,"post":{"id":7098,"title":"Brach Poston","slug":"merle-kataoka-yahiro"}},{"id":7097,"icon":"&times;","content":"","css":{"width":600,"position":"center"},"trigger":false,"animation":"fade","cookie":{"triggered":0,"dismissed":0},"rehide":false,"position":"center","screenWidthCondition":null,"closable":true,"post":{"id":7097,"title":"Juli Petereit","slug":"yiliang-zhu"}},{"id":7096,"icon":"&times;","content":"","css":{"width":600,"position":"center"},"trigger":false,"animation":"fade","cookie":{"triggered":0,"dismissed":0},"rehide":false,"position":"center","screenWidthCondition":null,"closable":true,"post":{"id":7096,"title":"Akshay Sood","slug":"bill-shuttleworth"}},{"id":7095,"icon":"&times;","content":"","css":{"width":600,"position":"center"},"trigger":false,"animation":"fade","cookie":{"triggered":0,"dismissed":0},"rehide":false,"position":"center","screenWidthCondition":null,"closable":true,"post":{"id":7095,"title":"Larissa Myaskovsky","slug":"eric-prossnitz"}},{"id":7094,"icon":"&times;","content":"","css":{"width":600,"position":"center"},"trigger":false,"animation":"fade","cookie":{"triggered":0,"dismissed":0},"rehide":false,"position":"center","screenWidthCondition":null,"closable":true,"post":{"id":7094,"title":"Curtis Noonan","slug":"7094"}},{"id":7093,"icon":"&times;","content":"","css":{"width":600,"position":"center"},"trigger":false,"animation":"fade","cookie":{"triggered":0,"dismissed":0},"rehide":false,"position":"center","screenWidthCondition":null,"closable":true,"post":{"id":7093,"title":"Weiyu Mao","slug":"carl-reiber"}},{"id":7092,"icon":"&times;","content":"","css":{"width":600,"position":"center"},"trigger":false,"animation":"fade","cookie":{"triggered":0,"dismissed":0},"rehide":false,"position":"center","screenWidthCondition":null,"closable":true,"post":{"id":7092,"title":"Richard Larson","slug":"richard-larson"}},{"id":7089,"icon":"&times;","content":"","css":{"width":600,"position":"center"},"trigger":false,"animation":"fade","cookie":{"triggered":0,"dismissed":0},"rehide":false,"position":"center","screenWidthCondition":null,"closable":true,"post":{"id":7089,"title":"Francisco Sy","slug":"parvesh-kumar"}},{"id":7086,"icon":"&times;","content":"","css":{"width":600,"position":"center"},"trigger":false,"animation":"fade","cookie":{"triggered":0,"dismissed":0},"rehide":false,"position":"center","screenWidthCondition":null,"closable":true,"post":{"id":7086,"title":"Xiaomeng","slug":"xiaomeng"}},{"id":7083,"icon":"&times;","content":"","css":{"width":600,"position":"center"},"trigger":false,"animation":"fade","cookie":{"triggered":0,"dismissed":0},"rehide":false,"position":"center","screenWidthCondition":null,"closable":true,"post":{"id":7083,"title":"Susan Tavernier","slug":"susan-tavernier"}},{"id":7071,"icon":"&times;","content":"","css":{"width":600,"position":"center"},"trigger":false,"animation":"fade","cookie":{"triggered":0,"dismissed":0},"rehide":false,"position":"center","screenWidthCondition":null,"closable":true,"post":{"id":7071,"title":"Blakely Brown","slug":"blakely-brown"}}]};
+/* ]]> */
+</script>
+<script type="text/javascript" src="../wp-content/plugins/boxzilla/assets/js/script.3d36ac7826.js" id="boxzilla-js" defer="defer" data-wp-strategy="defer"></script>
+<script type="text/javascript" src="../wp-content/plugins/youtube-embed-plus/scripts/fitvids.min.0412cf6eb0.js" id="__ytprefsfitvids__-js"></script>
+<script type="text/javascript" id="divi-accessibility-da11y-js-extra">
+/* <![CDATA[ */
+var _da11y = {"version":"2.0.5","active_outline_color":"#2ea3f2","skip_navigation_link_text":"Skip to content"};
+/* ]]> */
+</script>
+<script type="text/javascript" src="../wp-content/plugins/divi-accessibility/public/js/da11y.c1b4cbd670.js" id="divi-accessibility-da11y-js"></script>
+<script type="text/javascript" id="divi-accessibility-da11y-js-after">
+/* <![CDATA[ */
+jQuery(document).ready((function(e){function n(){const n=e(".et_search_form_container");n.hasClass("et_pb_is_animating")||(e(".et_menu_container").removeClass("et_pb_menu_visible et_pb_no_animation").addClass("et_pb_menu_hidden"),n.removeClass("et_pb_search_form_hidden et_pb_no_animation").addClass("et_pb_search_visible et_pb_is_animating"),setTimeout((function(){e(".et_menu_container").addClass("et_pb_no_animation"),n.addClass("et_pb_no_animation").removeClass("et_pb_is_animating")}),1e3),n.find("input").focus(),function(){const n=e(".et_search_form_container"),a=e("body");if(n.hasClass("et_pb_search_visible")){const s=e("#main-header").innerHeight(),i=e("#top-menu").width(),t=e("#top-menu li a").css("font-size");n.css({height:s+"px"}),n.find("input").css("font-size",t),a.hasClass("et_header_style_left")?n.find("form").css("max-width",i+60):n.css("max-width",i+60)}}())}e(".menu-item-has-children > a").length&&(e(".menu-item-has-children > a").addClass("da11y-submenu"),e(".menu-item-has-children > a").attr("aria-expanded","false")),e(".da11y-submenu").on("focus",(function(){e(this).attr("aria-expanded","true"),e(this).siblings(".sub-menu").addClass("da11y-submenu-show"),e(this).trigger("mouseenter")})),e(".menu-item-has-children a").on("focusout",(function(){e(this).parent().not(".menu-item-has-children").is(":last-child")&&e(this).parents(".menu-item-has-children").children(".da11y-submenu").attr("aria-expanded","false").trigger("mouseleave").siblings(".sub-menu").removeClass("da11y-submenu-show")})),e(".menu-item-has-children a").keyup((function(n){if(27===n.keyCode){var a=e(this).parents(".menu-item-has-children").last();a.length&&(a.children("a").focus(),a.find(".da11y-submenu").attr("aria-expanded","false").trigger("mouseleave").siblings(".sub-menu").removeClass("da11y-submenu-show"))}})),e(this).keyup((function(){e(".et-search-field").focus((function(){n()})).blur((function(){e(".et_search_form_container").hasClass("et_pb_is_animating")||(e(".et_menu_container").removeClass("et_pb_menu_hidden et_pb_no_animation").addClass("et_pb_menu_visible"),e(".et_search_form_container").removeClass("et_pb_search_visible et_pb_no_animation").addClass("et_pb_search_form_hidden et_pb_is_animating"),setTimeout((function(){e(".et_menu_container").addClass("et_pb_no_animation"),e(".et_search_form_container").addClass("et_pb_no_animation").removeClass("et_pb_is_animating")}),1e3))}))}))}));
+jQuery(document).ready((function(n){const t=((window||{})._da11y||{}).skip_navigation_link_text||!1;!function(e){const i='<a href="'+e+'" class="skip-link da11y-screen-reader-text">'+t+"</a>";n(e).attr("tabindex",-1),n("body").prepend(i)}("#main-content"),n('a[href^="#"]').click((function(){n("#"+n(this).attr("href").slice(1)).focus()}))}));
+jQuery(document).ready((function(e){let n=new Date,o=new Date;e(this).on("focusin",(function(t){e(".keyboard-outline").removeClass("keyboard-outline");o<n&&e(t.target).addClass("keyboard-outline")})),e(this).on("mousedown",(function(){o=new Date})),e(this).on("keydown",(function(){n=new Date}))}));
+jQuery(document).ready((function(t){t(".et_pb_toggle").each((function(){t(this).attr("tabindex",0)})),t(".et_pb_toggle").on("keydown",(function(t){32===t.which&&t.preventDefault()})),t(document).on("keyup",(function(e){13!==e.which&&32!==e.which||t(".et_pb_toggle:focus .et_pb_toggle_title").trigger("click")}))}));
+jQuery(document).ready((function(e){e(".et-search-field").each((function(t){e(this).attr("id","et_pb_search_module_input_"+t),e("#et_pb_search_module_input_"+t).before('<label class="da11y-screen-reader-text" for="et_pb_search_module_input_'+t+'">Search for...</label>'),e("#et_pb_search_module_input_"+t).after('<button type="submit" class="da11y-screen-reader-text">Search</button>')})),e(".et_pb_s").each((function(t){e(this).attr("id","et_pb_s_module_input_"+t),e("#et_pb_s_module_input_"+t).before('<label class="da11y-screen-reader-text" for="et_pb_s_module_input_'+t+'">Search for...</label>')})),e(".et_pb_contact_form").each((function(){e(this).find(".et_pb_contact_captcha_question").parent().wrap("<label></label>")})),e(".et-social-facebook a.icon span").text("Facebook"),e(".et-social-twitter a.icon span").text("Twitter"),e(".et-social-google-plus a.icon span").text("Google Plus"),e(".et-social-pinterest a.icon span").text("Pinterest"),e(".et-social-linkedin a.icon span").text("LinkedIn"),e(".et-social-tumblr a.icon span").text("Tumblr"),e(".et-social-instagram a.icon span").text("Instagram"),e(".et-social-skype a.icon span").text("Skype"),e(".et-social-flikr a.icon span").text("Flickr"),e(".et-social-myspace a.icon span").text("Myspace"),e(".et-social-dribbble a.icon span").text("Dribble"),e(".et-social-youtube a.icon span").text("YouTube"),e(".et-social-vimeo a.icon span").text("Vimeo"),e(".et-social-rss a.icon span").text("RSS")}));
+jQuery(document).ready((function(t){t(".et_pb_tabs_controls").each((function(){t(this).attr("role","tablist")})),t(".et_pb_tabs_controls li").each((function(){t(this).attr("role","presentation")})),t(".et_pb_tabs_controls a").each((function(){t(this).attr({role:"tab"})})),t(".et_pb_tab").each((function(){t(this).attr("role","tabpanel")})),t(".et_pb_tabs_controls li:not(.et_pb_tab_active) a").each((function(){t(this).attr({"aria-selected":"false","aria-expanded":"false",tabindex:-1})})),t(".et_pb_tabs_controls li.et_pb_tab_active a").each((function(){t(this).attr({"aria-selected":"true","aria-expanded":"true",tabindex:0})})),t("ul.sub-menu .menu-item a").each((function(){t(this).attr({"aria-haspopup":"true"})})),t("a:not(.et-social-icon a, .wp-block-button__link, figure a, .et_pb_button, .et_pb_video_play a, .et_pb_tabs_controls a)").each((function(){t(this).attr({role:"link"})})),t("#et_search_icon, .et_close_search_field, #et_mobile_nav_menu, #searchsubmit, .icon, .wp-block-button__link, .et_pb_button, .et_pb_video_play a").each((function(){t(this).attr({role:"button"})})),t("#g-recaptcha-response").each((function(){t(this).attr({"aria-hidden":"true","aria-label":"do not use","aria-readonly":"true"})})),t(".et_pb_tabs_controls a").each((function(a){t(this).attr({id:"et_pb_tab_control_"+a,"aria-controls":"et_pb_tab_panel_"+a})})),t(".et_pb_tab").each((function(a){t(this).attr({id:"et_pb_tab_panel_"+a,"aria-labelledby":"et_pb_tab_control_"+a})})),t(".et_pb_tab.et_pb_active_content").each((function(){t(this).attr("aria-hidden","false")})),t(".et_pb_tab:not(.et_pb_active_content)").each((function(){t(this).attr("aria-hidden","true")})),t(".et_pb_tabs").each((function(a){t(this).attr("data-da11y-id","et_pb_tab_module_"+a)})),t(".et_pb_tabs_controls a").on("click",(function(){const a=t(this).attr("id"),e=t(this).closest(".et_pb_tabs").attr("data-da11y-id");t('[data-da11y-id="'+e+'"] .et_pb_tabs_controls a').attr({"aria-selected":"false","aria-expanded":"false",tabindex:-1}),t(this).attr({"aria-selected":"true","aria-expanded":"true",tabindex:0}),t("#"+e+" .et_pb_tab").attr("aria-hidden","true"),t('[aria-labelledby="'+a+'"]').attr("aria-hidden","false")})),t(".et_pb_tabs_controls a").keyup((function(a){const e=t(this).closest(".et_pb_tabs").attr("data-da11y-id"),i=t('[data-da11y-id="'+e+'"]');if(39===a.which){const t=i.find("li.et_pb_tab_active").next();t.length>0?t.find("a").trigger("click"):i.find("li:first a").trigger("click")}else if(37===a.which){const t=i.find("li.et_pb_tab_active").prev();t.length>0?t.find("a").trigger("click"):i.find("li:last a").trigger("click")}t(".et_pb_tabs_controls a").removeClass("keyboard-outline"),i.find("li.et_pb_tab_active a").addClass("keyboard-outline")})),t(".et_pb_search").each((function(a){t(this).attr("data-da11y-id","et_pb_search_module_"+a)})),t('[data-required_mark="required"]').each((function(){t(this).attr("aria-required","true")})),t(".et_pb_contactform_validate_field").attr("type","hidden"),t(".et-pb-contact-message").attr("role","alert"),t("#main-content").attr("role","main"),t(".et_pb_fullwidth_header").each((function(a){t(this).attr("aria-label","Wide Header"+a)})),t("#comment-wrap").attr("aria-label","Comments")}));
+jQuery(document).ready((function(e){e("#et_top_search, .et_close_search_field, .et_pb_main_blurb_image").attr("aria-hidden","true")}));
+jQuery(document).ready((function(e){e(".mobile_menu_bar").attr({role:"button","aria-expanded":"false","aria-label":"Menu",tabindex:0}),e(".mobile_menu_bar").on("click",(function(){e(this).hasClass("a11y-mobile-menu-open")?e(this).removeClass("a11y-mobile-menu-open").attr("aria-expanded","false"):e(this).addClass("a11y-mobile-menu-open").attr("aria-expanded","true")})),e(".mobile_menu_bar").keyup((function(n){13!==n.keyCode&&32!==n.keyCode||e(".mobile_menu_bar").click()})),e(document).keyup((function(n){27===n.keyCode&&e("#et_mobile_nav_menu .mobile_nav").hasClass("opened")&&e(".mobile_menu_bar").click()})),e(this).on("focusin",(function(){e("#et_mobile_nav_menu .mobile_nav").hasClass("opened")&&(e("#et_mobile_nav_menu .et_mobile_menu :focus").length||e("#et_mobile_nav_menu .mobile_menu_bar").click())}))}));
+/* ]]> */
+</script>
+<style id="et-builder-module-design-deferred-4117-cached-inline-styles">div.et_pb_section.et_pb_section_0{background-image:url(../wp-content/uploads/ctrin-bg-unr.jpg)!important}.et_pb_fullwidth_post_title_0,.et_pb_fullwidth_post_title_0.et_pb_featured_bg{background-color:rgba(255,255,255,0)}.et_pb_image_0{text-align:center}.et_pb_section_4.et_pb_section,.et_pb_section_5.et_pb_section,.et_pb_section_2.et_pb_section{padding-top:46.5938px;padding-right:0px;padding-bottom:46.5938px;padding-left:0px}.et_pb_section_3,.et_pb_section_2{border-top:1px solid rgba(0,0,0,0.1)}.et_pb_section_3.et_pb_section{padding-top:46.5938px;padding-right:0px;padding-bottom:46.5938px;padding-left:0px;background-color:#e9e9e9!important}.et_pb_text_2 h1{font-size:42px}.et_pb_text_2{max-width:40em}body #page-container .et_pb_section .et_pb_button_1:hover,body #page-container .et_pb_section .et_pb_button_2:hover,body #page-container .et_pb_section .et_pb_button_0:hover{letter-spacing:0px!important}body #page-container .et_pb_section .et_pb_button_0,body #page-container .et_pb_section .et_pb_button_1,body #page-container .et_pb_section .et_pb_button_2{background-color:#0c71c3}.et_pb_button_0,.et_pb_button_0:after,.et_pb_button_1,.et_pb_button_1:after,.et_pb_button_2,.et_pb_button_2:after{transition:all 300ms ease 0ms}.et_pb_text_2.et_pb_module{margin-left:auto!important;margin-right:auto!important}@media only screen and (max-width:980px){.et_pb_section_0.et_pb_section,.et_pb_section_2.et_pb_section,.et_pb_section_3.et_pb_section,.et_pb_section_4.et_pb_section,.et_pb_section_5.et_pb_section{padding-top:50px;padding-right:0px;padding-bottom:50px;padding-left:0px}.et_pb_image_0 .et_pb_image_wrap img{width:auto}body #page-container .et_pb_section .et_pb_button_0:after,body #page-container .et_pb_section .et_pb_button_1:after,body #page-container .et_pb_section .et_pb_button_2:after{display:inline-block;opacity:0}body #page-container .et_pb_section .et_pb_button_0:hover:after,body #page-container .et_pb_section .et_pb_button_1:hover:after,body #page-container .et_pb_section .et_pb_button_2:hover:after{opacity:1}}@media only screen and (max-width:767px){.et_pb_image_0 .et_pb_image_wrap img{width:auto}.et_pb_section_2.et_pb_section,.et_pb_section_3.et_pb_section{padding-top:50px;padding-right:0px;padding-bottom:50px;padding-left:0px}body #page-container .et_pb_section .et_pb_button_0:after,body #page-container .et_pb_section .et_pb_button_1:after,body #page-container .et_pb_section .et_pb_button_2:after{display:inline-block;opacity:0}body #page-container .et_pb_section .et_pb_button_0:hover:after,body #page-container .et_pb_section .et_pb_button_1:hover:after,body #page-container .et_pb_section .et_pb_button_2:hover:after{opacity:1}}</style><script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"NRJS-7597577927e9b1978c5","applicationID":"521548323","transactionName":"YlIBMEtYWEpRAEANWFsYIgdNUFlXHxNVA1I=","queueTime":0,"applicationTime":614,"atts":"ThUCRgNCS0Q=","errorBeacon":"bam.nr-data.net","agent":""}</script></body>
+</html>
